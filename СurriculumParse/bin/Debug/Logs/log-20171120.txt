@@ -1,0 +1,796 @@
+2017-11-20 12:23:29.033 +03:00 [Information] Application started
+2017-11-20 12:23:33.421 +03:00 [Error] Reading pps ППС_09.03.01_Вычисл.машины,компл,сис. и сети_2015_оН.xlsx. Error: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 12:23:37.594 +03:00 [Information] Application finished
+2017-11-20 12:24:41.235 +03:00 [Information] Application started
+2017-11-20 12:24:44.093 +03:00 [Error] Reading pps ППС_09.03.01_Вычисл.машины,компл,сис. и сети_2015_оН.xlsx. Error 6: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 12:24:45.331 +03:00 [Information] Application finished
+2017-11-20 12:25:16.209 +03:00 [Information] Application started
+2017-11-20 12:28:10.806 +03:00 [Information] Application started
+2017-11-20 12:28:13.398 +03:00 [Information] Empty entry in 52:4
+2017-11-20 12:28:13.399 +03:00 [Information] Empty entry in 60:4
+2017-11-20 12:28:13.401 +03:00 [Information] Empty entry in 104:4
+2017-11-20 12:28:13.402 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 12:28:13.403 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 12:28:13.404 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 12:28:13.404 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 12:28:13.405 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:28:13.406 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:28:13.407 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:28:13.407 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:28:13.408 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:28:13.408 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:28:13.409 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.17 name Метрология, стандартизация и сертификация
+2017-11-20 12:28:13.410 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.17 name Метрология, стандартизация и сертификация
+2017-11-20 12:28:13.411 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.17 name Метрология, стандартизация и сертификация
+2017-11-20 12:28:13.413 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.18 name Методы цифровой обработки сигналов
+2017-11-20 12:28:13.414 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.18 name Методы цифровой обработки сигналов
+2017-11-20 12:28:13.416 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.18 name Методы цифровой обработки сигналов
+2017-11-20 12:28:13.417 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.2 name Дискретная математика
+2017-11-20 12:28:13.419 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.2 name Дискретная математика
+2017-11-20 12:28:13.421 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.2 name Дискретная математика
+2017-11-20 12:28:13.422 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.5 name Математическая логика и теория алгоритмов
+2017-11-20 12:28:13.423 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.5 name Математическая логика и теория алгоритмов
+2017-11-20 12:28:13.425 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.5 name Математическая логика и теория алгоритмов
+2017-11-20 12:28:13.426 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.9 name Моделирование
+2017-11-20 12:28:13.427 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.9 name Моделирование
+2017-11-20 12:28:13.428 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.9 name Моделирование
+2017-11-20 12:28:13.430 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.16 name Информационно-управляющие системы
+2017-11-20 12:28:13.431 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.16 name Информационно-управляющие системы
+2017-11-20 12:28:13.432 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.16 name Информационно-управляющие системы
+2017-11-20 12:28:13.433 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы вычислительной техники
+2017-11-20 12:28:13.435 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы распределенных вычислений
+2017-11-20 12:28:13.435 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы распределенных вычислений
+2017-11-20 12:28:13.437 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы распределенных вычислений
+2017-11-20 12:28:13.438 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:28:13.439 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:28:13.440 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:28:13.441 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:28:13.442 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:28:13.443 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:29:49.666 +03:00 [Information] Application started
+2017-11-20 12:29:52.612 +03:00 [Information] Empty entry in 52:4
+2017-11-20 12:29:52.613 +03:00 [Information] Empty entry in 60:4
+2017-11-20 12:29:52.615 +03:00 [Information] Empty entry in 104:4
+2017-11-20 12:29:52.616 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 12:29:52.616 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 12:29:52.617 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 12:29:52.618 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 12:29:52.619 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:29:52.619 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:29:52.620 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:29:52.620 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:29:52.621 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:29:52.622 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:29:52.623 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.17 name Метрология, стандартизация и сертификация
+2017-11-20 12:29:52.624 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.17 name Метрология, стандартизация и сертификация
+2017-11-20 12:29:52.625 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.17 name Метрология, стандартизация и сертификация
+2017-11-20 12:29:52.626 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.18 name Методы цифровой обработки сигналов
+2017-11-20 12:29:52.627 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.18 name Методы цифровой обработки сигналов
+2017-11-20 12:29:52.628 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.18 name Методы цифровой обработки сигналов
+2017-11-20 12:29:52.630 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.2 name Дискретная математика
+2017-11-20 12:29:52.631 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.2 name Дискретная математика
+2017-11-20 12:29:52.632 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.2 name Дискретная математика
+2017-11-20 12:29:52.633 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.5 name Математическая логика и теория алгоритмов
+2017-11-20 12:29:52.635 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.5 name Математическая логика и теория алгоритмов
+2017-11-20 12:29:52.636 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.5 name Математическая логика и теория алгоритмов
+2017-11-20 12:29:52.637 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.9 name Моделирование
+2017-11-20 12:29:52.639 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.9 name Моделирование
+2017-11-20 12:29:52.640 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.9 name Моделирование
+2017-11-20 12:29:52.642 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.16 name Информационно-управляющие системы
+2017-11-20 12:29:52.643 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.16 name Информационно-управляющие системы
+2017-11-20 12:29:52.645 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.16 name Информационно-управляющие системы
+2017-11-20 12:29:52.646 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы вычислительной техники
+2017-11-20 12:29:52.648 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы распределенных вычислений
+2017-11-20 12:29:52.650 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы распределенных вычислений
+2017-11-20 12:29:52.651 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы распределенных вычислений
+2017-11-20 12:29:52.653 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:29:52.654 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:29:52.655 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:29:52.657 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:29:52.658 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:29:52.659 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:29:59.517 +03:00 [Information] Application finished
+2017-11-20 12:41:23.080 +03:00 [Information] Application started
+2017-11-20 12:41:23.374 +03:00 [Error] Reading pps ППС_09.03.01_Вычисл.машины,компл,сис. и сети_2015_оН.xlsx. Error 6: Процесс не может получить доступ к файлу "C:\Users\baski\Documents\База ОПОП\09.03.01\Вычислительные машины, комплексы, системы и сети_очная\2015\ППС_09.03.01_Вычисл.машины,компл,сис. и сети_2015_оН.xlsx", так как этот файл используется другим процессом.
+2017-11-20 12:41:33.423 +03:00 [Information] Application finished
+2017-11-20 12:41:39.907 +03:00 [Information] Application started
+2017-11-20 12:41:45.241 +03:00 [Information] Empty entry in 52:4
+2017-11-20 12:41:45.244 +03:00 [Information] Empty entry in 60:4
+2017-11-20 12:41:45.245 +03:00 [Information] Empty entry in 104:4
+2017-11-20 12:41:45.246 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 12:41:45.247 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 12:41:45.247 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 12:41:45.248 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 12:41:45.249 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:41:45.250 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:41:45.251 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:41:45.252 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:41:45.253 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:41:45.253 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:41:45.254 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.17 name Метрология, стандартизация и сертификация
+2017-11-20 12:41:45.256 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.17 name Метрология, стандартизация и сертификация
+2017-11-20 12:41:45.258 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.17 name Метрология, стандартизация и сертификация
+2017-11-20 12:41:45.259 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.18 name Методы цифровой обработки сигналов
+2017-11-20 12:41:45.260 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.18 name Методы цифровой обработки сигналов
+2017-11-20 12:41:45.261 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.18 name Методы цифровой обработки сигналов
+2017-11-20 12:41:45.263 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.2 name Дискретная математика
+2017-11-20 12:41:45.264 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.2 name Дискретная математика
+2017-11-20 12:41:45.266 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.2 name Дискретная математика
+2017-11-20 12:41:45.267 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.5 name Математическая логика и теория алгоритмов
+2017-11-20 12:41:45.268 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.5 name Математическая логика и теория алгоритмов
+2017-11-20 12:41:45.269 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.5 name Математическая логика и теория алгоритмов
+2017-11-20 12:41:45.271 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.9 name Моделирование
+2017-11-20 12:41:45.272 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.9 name Моделирование
+2017-11-20 12:41:45.274 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.9 name Моделирование
+2017-11-20 12:41:45.276 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.16 name Информационно-управляющие системы
+2017-11-20 12:41:45.277 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.16 name Информационно-управляющие системы
+2017-11-20 12:41:45.278 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.16 name Информационно-управляющие системы
+2017-11-20 12:41:45.280 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы вычислительной техники
+2017-11-20 12:41:45.282 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы распределенных вычислений
+2017-11-20 12:41:45.282 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы распределенных вычислений
+2017-11-20 12:41:45.284 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы распределенных вычислений
+2017-11-20 12:41:45.285 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:41:45.286 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:41:45.287 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:41:45.288 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:41:45.290 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:41:45.291 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:41:45.292 +03:00 [Information] Empty entry in 251:2
+2017-11-20 12:41:45.297 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.22 name Право интеллектуальной собственности
+2017-11-20 12:41:45.298 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.22 name Право интеллектуальной собственности
+2017-11-20 12:41:45.300 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.22 name Право интеллектуальной собственности
+2017-11-20 12:41:45.301 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.23 name Социально-политические проблемы современного общества
+2017-11-20 12:41:45.303 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.23 name Социально-политические проблемы современного общества
+2017-11-20 12:41:45.304 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.23 name Социально-политические проблемы современного общества
+2017-11-20 12:41:45.305 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.24 name Информационный менеджмент
+2017-11-20 12:41:45.306 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.24 name Информационный менеджмент
+2017-11-20 12:41:45.308 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.24 name Информационный менеджмент
+2017-11-20 12:41:45.309 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.24 name Управление информационными проектами и ресурсами
+2017-11-20 12:41:45.310 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.24 name Управление информационными проектами и ресурсами
+2017-11-20 12:41:45.312 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.24 name Управление информационными проектами и ресурсами
+2017-11-20 12:41:45.313 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.25 name Русский язык и культура речи
+2017-11-20 12:41:45.314 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.25 name Русский язык и культура речи
+2017-11-20 12:41:45.315 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.25 name Русский язык и культура речи
+2017-11-20 12:41:45.317 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.26 name Имидж специалиста: стратегии деловой коммуникации и разрешения конфликтов
+2017-11-20 12:41:45.318 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.26 name Имидж специалиста: стратегии деловой коммуникации и разрешения конфликтов
+2017-11-20 12:41:45.319 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.26 name Имидж специалиста: стратегии деловой коммуникации и разрешения конфликтов
+2017-11-20 12:41:45.321 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.27 name Регулярные множества и выражения
+2017-11-20 12:41:45.322 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.27 name Регулярные множества и выражения
+2017-11-20 12:41:45.323 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.27 name Регулярные множества и выражения
+2017-11-20 12:41:45.324 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.28 name Комбинаторные алгоритмы
+2017-11-20 12:41:45.325 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.28 name Комбинаторные алгоритмы
+2017-11-20 12:41:45.326 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.29 name Теория графов
+2017-11-20 12:41:45.327 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.29 name Теория графов
+2017-11-20 12:41:45.328 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.29 name Теория графов
+2017-11-20 12:41:45.329 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.30 name Экономика программной инженерии
+2017-11-20 12:41:45.330 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.30 name Экономика программной инженерии
+2017-11-20 12:41:45.331 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.30 name Экономика программной инженерии
+2017-11-20 12:41:45.333 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.31 name Проектирование человеко-машинного интерфейса
+2017-11-20 12:41:45.334 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.31 name Проектирование человеко-машинного интерфейса
+2017-11-20 12:41:45.335 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.31 name Проектирование человеко-машинного интерфейса
+2017-11-20 12:41:45.336 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.32 name Сервис-ориентированная архитектура
+2017-11-20 12:41:45.337 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.32 name Сервис-ориентированная архитектура
+2017-11-20 12:41:45.338 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.32 name Сервис-ориентированная архитектура
+2017-11-20 12:41:45.339 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.33 name Основы разработки компиляторов
+2017-11-20 12:41:45.341 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.33 name Основы разработки компиляторов
+2017-11-20 12:41:45.342 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.33 name Основы разработки компиляторов
+2017-11-20 12:41:45.344 +03:00 [Information] Empty entry in 332:4
+2017-11-20 12:41:45.344 +03:00 [Information] Empty entry in 333:4
+2017-11-20 12:41:45.345 +03:00 [Information] Empty entry in 334:4
+2017-11-20 12:42:09.105 +03:00 [Information] Application finished
+2017-11-20 12:43:50.933 +03:00 [Information] Application started
+2017-11-20 12:43:53.484 +03:00 [Information] Empty entry in 52:4
+2017-11-20 12:43:53.485 +03:00 [Information] Empty entry in 60:4
+2017-11-20 12:43:53.486 +03:00 [Information] Empty entry in 104:4
+2017-11-20 12:43:53.487 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 12:43:53.488 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 12:43:53.489 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 12:43:53.490 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 12:43:53.491 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:43:53.492 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:43:53.493 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:43:53.493 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:43:53.494 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:43:53.495 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 12:43:53.496 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.17 name Метрология, стандартизация и сертификация
+2017-11-20 12:43:53.496 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.17 name Метрология, стандартизация и сертификация
+2017-11-20 12:43:53.499 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.17 name Метрология, стандартизация и сертификация
+2017-11-20 12:43:53.500 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.18 name Методы цифровой обработки сигналов
+2017-11-20 12:43:53.501 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.18 name Методы цифровой обработки сигналов
+2017-11-20 12:43:53.503 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.18 name Методы цифровой обработки сигналов
+2017-11-20 12:43:53.505 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.2 name Дискретная математика
+2017-11-20 12:43:53.507 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.2 name Дискретная математика
+2017-11-20 12:43:53.508 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.2 name Дискретная математика
+2017-11-20 12:43:53.510 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.5 name Математическая логика и теория алгоритмов
+2017-11-20 12:43:53.511 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.5 name Математическая логика и теория алгоритмов
+2017-11-20 12:43:53.512 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.5 name Математическая логика и теория алгоритмов
+2017-11-20 12:43:53.514 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.9 name Моделирование
+2017-11-20 12:43:53.515 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.9 name Моделирование
+2017-11-20 12:43:53.517 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.9 name Моделирование
+2017-11-20 12:43:53.519 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.16 name Информационно-управляющие системы
+2017-11-20 12:43:53.519 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.16 name Информационно-управляющие системы
+2017-11-20 12:43:53.521 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.16 name Информационно-управляющие системы
+2017-11-20 12:43:53.522 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы вычислительной техники
+2017-11-20 12:43:53.524 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы распределенных вычислений
+2017-11-20 12:43:53.525 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы распределенных вычислений
+2017-11-20 12:43:53.526 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы распределенных вычислений
+2017-11-20 12:43:53.528 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:43:53.529 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:43:53.530 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:43:53.531 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:43:53.532 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:43:53.534 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 12:43:53.535 +03:00 [Information] Empty entry in 251:2
+2017-11-20 12:43:53.536 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.22 name Право интеллектуальной собственности
+2017-11-20 12:43:53.537 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.22 name Право интеллектуальной собственности
+2017-11-20 12:43:53.538 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.22 name Право интеллектуальной собственности
+2017-11-20 12:43:53.539 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.23 name Социально-политические проблемы современного общества
+2017-11-20 12:43:53.540 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.23 name Социально-политические проблемы современного общества
+2017-11-20 12:43:53.541 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.23 name Социально-политические проблемы современного общества
+2017-11-20 12:43:53.542 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.24 name Информационный менеджмент
+2017-11-20 12:43:53.543 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.24 name Информационный менеджмент
+2017-11-20 12:43:53.544 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.24 name Информационный менеджмент
+2017-11-20 12:43:53.546 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.24 name Управление информационными проектами и ресурсами
+2017-11-20 12:43:53.546 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.24 name Управление информационными проектами и ресурсами
+2017-11-20 12:43:53.548 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.24 name Управление информационными проектами и ресурсами
+2017-11-20 12:43:53.549 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.25 name Русский язык и культура речи
+2017-11-20 12:43:53.550 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.25 name Русский язык и культура речи
+2017-11-20 12:43:53.550 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.25 name Русский язык и культура речи
+2017-11-20 12:43:53.552 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.26 name Имидж специалиста: стратегии деловой коммуникации и разрешения конфликтов
+2017-11-20 12:43:53.552 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.26 name Имидж специалиста: стратегии деловой коммуникации и разрешения конфликтов
+2017-11-20 12:43:53.553 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.26 name Имидж специалиста: стратегии деловой коммуникации и разрешения конфликтов
+2017-11-20 12:43:53.554 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.27 name Регулярные множества и выражения
+2017-11-20 12:43:53.555 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.27 name Регулярные множества и выражения
+2017-11-20 12:43:53.556 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.27 name Регулярные множества и выражения
+2017-11-20 12:43:53.558 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.28 name Комбинаторные алгоритмы
+2017-11-20 12:43:53.558 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.28 name Комбинаторные алгоритмы
+2017-11-20 12:43:53.560 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.29 name Теория графов
+2017-11-20 12:43:53.560 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.29 name Теория графов
+2017-11-20 12:43:53.562 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.29 name Теория графов
+2017-11-20 12:43:53.562 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.30 name Экономика программной инженерии
+2017-11-20 12:43:53.563 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.30 name Экономика программной инженерии
+2017-11-20 12:43:53.565 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.30 name Экономика программной инженерии
+2017-11-20 12:43:53.566 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.31 name Проектирование человеко-машинного интерфейса
+2017-11-20 12:43:53.568 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.31 name Проектирование человеко-машинного интерфейса
+2017-11-20 12:43:53.568 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.31 name Проектирование человеко-машинного интерфейса
+2017-11-20 12:43:53.570 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.32 name Сервис-ориентированная архитектура
+2017-11-20 12:43:53.570 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.32 name Сервис-ориентированная архитектура
+2017-11-20 12:43:53.572 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.32 name Сервис-ориентированная архитектура
+2017-11-20 12:43:53.573 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.33 name Основы разработки компиляторов
+2017-11-20 12:43:53.574 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.33 name Основы разработки компиляторов
+2017-11-20 12:43:53.574 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.33 name Основы разработки компиляторов
+2017-11-20 12:43:53.576 +03:00 [Information] Empty entry in 332:4
+2017-11-20 12:43:53.577 +03:00 [Information] Empty entry in 333:4
+2017-11-20 12:43:53.577 +03:00 [Information] Empty entry in 334:4
+2017-11-20 12:44:03.901 +03:00 [Information] Application finished
+2017-11-20 14:08:59.461 +03:00 [Information] Application started
+2017-11-20 14:09:06.177 +03:00 [Information] Empty entry in 52:4
+2017-11-20 14:09:06.178 +03:00 [Information] Empty entry in 60:4
+2017-11-20 14:09:06.180 +03:00 [Information] Empty entry in 104:4
+2017-11-20 14:09:06.181 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 14:09:06.182 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 14:09:06.182 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 14:09:06.183 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.11 name Цифровая схемотехника
+2017-11-20 14:09:06.184 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 14:09:06.184 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 14:09:06.185 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 14:09:06.186 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 14:09:06.186 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 14:09:06.187 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.15 name Системы баз данных
+2017-11-20 14:09:06.187 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.17 name Метрология, стандартизация и сертификация
+2017-11-20 14:09:06.189 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.17 name Метрология, стандартизация и сертификация
+2017-11-20 14:09:06.191 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.17 name Метрология, стандартизация и сертификация
+2017-11-20 14:09:06.191 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.18 name Методы цифровой обработки сигналов
+2017-11-20 14:09:06.192 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.18 name Методы цифровой обработки сигналов
+2017-11-20 14:09:06.193 +03:00 [Information] Curriculum subject hasn't found: index Б.1.1.18 name Методы цифровой обработки сигналов
+2017-11-20 14:09:06.195 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.2 name Дискретная математика
+2017-11-20 14:09:06.196 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.2 name Дискретная математика
+2017-11-20 14:09:06.197 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.2 name Дискретная математика
+2017-11-20 14:09:06.198 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.5 name Математическая логика и теория алгоритмов
+2017-11-20 14:09:06.199 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.5 name Математическая логика и теория алгоритмов
+2017-11-20 14:09:06.201 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.5 name Математическая логика и теория алгоритмов
+2017-11-20 14:09:06.203 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.9 name Моделирование
+2017-11-20 14:09:06.204 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.9 name Моделирование
+2017-11-20 14:09:06.205 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.9 name Моделирование
+2017-11-20 14:09:06.206 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.16 name Информационно-управляющие системы
+2017-11-20 14:09:06.207 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.16 name Информационно-управляющие системы
+2017-11-20 14:09:06.208 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.16 name Информационно-управляющие системы
+2017-11-20 14:09:06.210 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы вычислительной техники
+2017-11-20 14:09:06.211 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы распределенных вычислений
+2017-11-20 14:09:06.212 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы распределенных вычислений
+2017-11-20 14:09:06.214 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.19 name Основы распределенных вычислений
+2017-11-20 14:09:06.215 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 14:09:06.216 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 14:09:06.217 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 14:09:06.219 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 14:09:06.219 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 14:09:06.220 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.21 name Организация ЭВМ и систем
+2017-11-20 14:09:06.222 +03:00 [Information] Empty entry in 251:2
+2017-11-20 14:09:06.222 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.22 name Право интеллектуальной собственности
+2017-11-20 14:09:06.223 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.22 name Право интеллектуальной собственности
+2017-11-20 14:09:06.224 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.22 name Право интеллектуальной собственности
+2017-11-20 14:09:06.225 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.23 name Социально-политические проблемы современного общества
+2017-11-20 14:09:06.226 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.23 name Социально-политические проблемы современного общества
+2017-11-20 14:09:06.226 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.23 name Социально-политические проблемы современного общества
+2017-11-20 14:09:06.227 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.24 name Информационный менеджмент
+2017-11-20 14:09:06.228 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.24 name Информационный менеджмент
+2017-11-20 14:09:06.229 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.24 name Информационный менеджмент
+2017-11-20 14:09:06.230 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.24 name Управление информационными проектами и ресурсами
+2017-11-20 14:09:06.231 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.24 name Управление информационными проектами и ресурсами
+2017-11-20 14:09:06.232 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.24 name Управление информационными проектами и ресурсами
+2017-11-20 14:09:06.233 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.25 name Русский язык и культура речи
+2017-11-20 14:09:06.234 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.25 name Русский язык и культура речи
+2017-11-20 14:09:06.234 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.25 name Русский язык и культура речи
+2017-11-20 14:09:06.235 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.26 name Имидж специалиста: стратегии деловой коммуникации и разрешения конфликтов
+2017-11-20 14:09:06.236 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.26 name Имидж специалиста: стратегии деловой коммуникации и разрешения конфликтов
+2017-11-20 14:09:06.237 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.26 name Имидж специалиста: стратегии деловой коммуникации и разрешения конфликтов
+2017-11-20 14:09:06.238 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.27 name Регулярные множества и выражения
+2017-11-20 14:09:06.239 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.27 name Регулярные множества и выражения
+2017-11-20 14:09:06.240 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.27 name Регулярные множества и выражения
+2017-11-20 14:09:06.241 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.28 name Комбинаторные алгоритмы
+2017-11-20 14:09:06.242 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.28 name Комбинаторные алгоритмы
+2017-11-20 14:09:06.243 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.29 name Теория графов
+2017-11-20 14:09:06.243 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.29 name Теория графов
+2017-11-20 14:09:06.244 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.29 name Теория графов
+2017-11-20 14:09:06.245 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.30 name Экономика программной инженерии
+2017-11-20 14:09:06.246 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.30 name Экономика программной инженерии
+2017-11-20 14:09:06.247 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.30 name Экономика программной инженерии
+2017-11-20 14:09:06.248 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.31 name Проектирование человеко-машинного интерфейса
+2017-11-20 14:09:06.249 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.31 name Проектирование человеко-машинного интерфейса
+2017-11-20 14:09:06.250 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.31 name Проектирование человеко-машинного интерфейса
+2017-11-20 14:09:06.251 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.32 name Сервис-ориентированная архитектура
+2017-11-20 14:09:06.252 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.32 name Сервис-ориентированная архитектура
+2017-11-20 14:09:06.253 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.32 name Сервис-ориентированная архитектура
+2017-11-20 14:09:06.254 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.33 name Основы разработки компиляторов
+2017-11-20 14:09:06.254 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.33 name Основы разработки компиляторов
+2017-11-20 14:09:06.255 +03:00 [Information] Curriculum subject hasn't found: index Б.1.2.33 name Основы разработки компиляторов
+2017-11-20 14:09:06.257 +03:00 [Information] Empty entry in 332:4
+2017-11-20 14:09:06.257 +03:00 [Information] Empty entry in 333:4
+2017-11-20 14:09:06.258 +03:00 [Information] Empty entry in 334:4
+2017-11-20 14:09:44.965 +03:00 [Information] Application finished
+2017-11-20 14:12:00.566 +03:00 [Information] Application started
+2017-11-20 14:12:00.592 +03:00 [Information] File manager: steped in programm number 01.03.02
+2017-11-20 14:12:00.611 +03:00 [Information] File manager: steped in programm with name Информатика и программирование
+2017-11-20 14:12:00.708 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:00.709 +03:00 [Information] File manager: steped in programm with name Математические модели и алгоритмы в разработке программного обеспечения
+2017-11-20 14:12:00.711 +03:00 [Information] File Manager: unsupported file path
+2017-11-20 14:12:00.711 +03:00 [Information] File manager: steped in programm with name Математическое моделирование
+2017-11-20 14:12:00.729 +03:00 [Information] File is with obsolete format change it to xlsx
+2017-11-20 14:12:00.730 +03:00 [Information] File manager: steped in programm number 09.03.01
+2017-11-20 14:12:00.730 +03:00 [Information] File manager: steped in programm with name Вычислительные машины, комплексы, системы и сети_очная
+2017-11-20 14:12:01.267 +03:00 [Information] Parsing curriculum УП2015_09.03.01_Вычислительные машины, комплексы, системы и сети_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:01.388 +03:00 [Information] File manager: steped in programm with name Вычислительные машины, комплексы, системы и сети_очно_заочная
+2017-11-20 14:12:01.389 +03:00 [Information] File manager: steped in programm with name Вычислительные системы и сети_очная
+2017-11-20 14:12:01.390 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:01.391 +03:00 [Information] File manager: steped in programm with name Вычислительные системы и сети_очно-заочная
+2017-11-20 14:12:01.392 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:01.392 +03:00 [Information] File manager: steped in programm with name Системы автоматизированного проектирования_очная
+2017-11-20 14:12:01.566 +03:00 [Information] Parsing curriculum УП2015_09.03.01_Системы автоматизированного проектирования_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:01.574 +03:00 [Information] File manager: steped in programm with name Системы автоматизированного проектирования_очно-заочная
+2017-11-20 14:12:01.744 +03:00 [Information] Parsing curriculum УП2015_09.03.01_Системы автоматизированного проектирования_для_оз.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:01.753 +03:00 [Information] File manager: steped in programm number 09.03.02
+2017-11-20 14:12:01.754 +03:00 [Information] File manager: steped in programm with name Автоматизация и управление в образовательных системах
+2017-11-20 14:12:01.888 +03:00 [Information] Parsing curriculum УП2015_09.03.02_Автоматизация и управление в образовательных системах_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:01.889 +03:00 [Information] Parsing curriculum УП2015_09.03.02_Автоматизация и управление в образовательных системах_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:01.890 +03:00 [Information] Parsing curriculum УП2015_09.03.02_Автоматизация и управление в образовательных системах_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:01.898 +03:00 [Information] File manager: steped in programm with name Информационные системы в управлении образованием
+2017-11-20 14:12:02.051 +03:00 [Information] Parsing curriculum УП2015_09.03.02_Информационные системы в управлении образованием_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:02.058 +03:00 [Information] File manager: steped in programm with name Информационные системы и технологии
+2017-11-20 14:12:02.212 +03:00 [Information] Parsing curriculum УП2015_09.03.02_Информационные системы и технологии_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:02.222 +03:00 [Information] File manager: steped in programm with name Информационные технологии в дизайне (ГТ)
+2017-11-20 14:12:02.508 +03:00 [Error] Parsing curriculum УП2015_09.03.02_Информационные технологии в дизайне_для_о.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:02.564 +03:00 [Information] File manager: steped in programm with name Мобильные и сетевые технологии
+2017-11-20 14:12:02.565 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:02.566 +03:00 [Information] File manager: steped in programm with name Мобильные сетевые технологии
+2017-11-20 14:12:02.568 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:02.568 +03:00 [Information] File manager: steped in programm with name Программирование и интернет-технологии
+2017-11-20 14:12:02.570 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:02.571 +03:00 [Information] File manager: steped in programm number 09.03.03
+2017-11-20 14:12:02.572 +03:00 [Information] File manager: steped in programm with name Корпоративные информационные системы
+2017-11-20 14:12:02.572 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:02.573 +03:00 [Information] File manager: steped in programm with name Прикладная видеоинформатика
+2017-11-20 14:12:02.574 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:02.575 +03:00 [Information] File manager: steped in programm with name Прикладная информатика в автоматизированных системах
+2017-11-20 14:12:02.577 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:02.578 +03:00 [Information] File manager: steped in programm with name Прикладная информатика в информационной сфере
+2017-11-20 14:12:02.705 +03:00 [Information] Parsing curriculum УП2015_09.03.03_Прикладная информатика в информационной сфере_для_о.xlsx. Can't read activity hours in 801:5
+2017-11-20 14:12:02.712 +03:00 [Information] File manager: steped in programm with name Прикладная информатика в экономике
+2017-11-20 14:12:02.839 +03:00 [Information] Parsing curriculum УП2015_09.03.02_Прикладная информатика в экономике_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:02.847 +03:00 [Information] File manager: steped in programm number 09.03.04
+2017-11-20 14:12:02.848 +03:00 [Information] File manager: steped in programm with name Компьютерные технологии в дизайне
+2017-11-20 14:12:02.849 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:02.849 +03:00 [Information] File manager: steped in programm with name Нейротехнологии и программирование
+2017-11-20 14:12:02.850 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:02.851 +03:00 [Information] File manager: steped in programm with name Программно-информационные системы
+2017-11-20 14:12:02.852 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:02.853 +03:00 [Information] File manager: steped in programm with name Разработка-программно-информационных систем (ВТ)
+2017-11-20 14:12:02.995 +03:00 [Information] Parsing curriculum УП2015_09.03.04_Разработка программно-информационных систем_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:03.003 +03:00 [Information] File manager: steped in programm with name Разработка-программно-информационных систем (ИПМ)
+2017-11-20 14:12:03.179 +03:00 [Information] Parsing curriculum УП2015_09.03.04_Разработка программно-информационных систем_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:03.187 +03:00 [Information] File manager: steped in programm with name Системное и прикладное программное обеспечение
+2017-11-20 14:12:03.188 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:03.188 +03:00 [Information] File manager: steped in programm number 10.03.01
+2017-11-20 14:12:03.214 +03:00 [Information] File manager: steped in programm with name Комплексная защита объектов информатизации_очная
+2017-11-20 14:12:03.373 +03:00 [Information] Parsing curriculum УП2015_10.03.01_Комплексная защита объектов информатизации_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:03.380 +03:00 [Information] File manager: steped in programm with name Комплексная защита объектов информатизации_очно-заочная
+2017-11-20 14:12:03.419 +03:00 [Information] File manager: steped in programm with name Математич моделирование и прогнозирование информацион угроз
+2017-11-20 14:12:04.445 +03:00 [Information] Parsing curriculum УП2015_10.03.01_Математическое моделирование и прогнозирование информационных угроз_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:04.453 +03:00 [Information] File manager: steped in programm with name Организация и технология защиты информации_очная
+2017-11-20 14:12:04.619 +03:00 [Information] Parsing curriculum УП2015_10.03.01_Организация и технология защиты информации_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:04.630 +03:00 [Information] File manager: steped in programm with name Организация и технология защиты информации_очно-заочная
+2017-11-20 14:12:04.666 +03:00 [Information] File manager: steped in programm with name Технологии защиты информации_очная
+2017-11-20 14:12:04.667 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:04.668 +03:00 [Information] File manager: steped in programm with name Технологии защиты информации_очно-заочная
+2017-11-20 14:12:04.669 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:04.670 +03:00 [Information] File manager: steped in programm number 11.03.02
+2017-11-20 14:12:04.688 +03:00 [Information] File manager: steped in programm with name Беспроводные системы связи
+2017-11-20 14:12:04.690 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:04.690 +03:00 [Information] File manager: steped in programm with name Интеллектуальные инфокоммуникационные системы
+2017-11-20 14:12:04.923 +03:00 [Information] Parsing curriculum УП2015_11.03.02 Интеллектуальные инфокоммуникационные системы_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:04.931 +03:00 [Information] File manager: steped in programm with name Инфокоммуникационные системы
+2017-11-20 14:12:04.932 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:04.933 +03:00 [Information] File manager: steped in programm with name Инфокоммуникационные технологии в сервисах и услугах связи
+2017-11-20 14:12:05.113 +03:00 [Information] Parsing curriculum УП2015_11.03.02_Инфокоммуникационные технологии в сервисах и услугах связи_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:05.121 +03:00 [Information] File manager: steped in programm with name Облачные технологии
+2017-11-20 14:12:05.121 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:05.122 +03:00 [Information] File manager: steped in programm with name Оптические системы и сети связи
+2017-11-20 14:12:05.278 +03:00 [Information] Parsing curriculum УП2015_11.03.02_Оптические сети и системы связи_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:05.287 +03:00 [Information] File manager: steped in programm with name Программно-защищенные инфокоммуникации
+2017-11-20 14:12:05.485 +03:00 [Information] Parsing curriculum УП2015_11.03.02_Программно-защищенные инфокоммуникации_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:05.493 +03:00 [Information] File manager: steped in programm with name Световодная фотоника
+2017-11-20 14:12:05.494 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:05.495 +03:00 [Information] File manager: steped in programm with name Сетевые и облачные технологии в инфокоммуникациях
+2017-11-20 14:12:05.496 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:05.497 +03:00 [Information] File manager: steped in programm with name Системы радиосвязи и радиодоступа
+2017-11-20 14:12:05.664 +03:00 [Information] Parsing curriculum УП2015_11.03.02_Системы радиосвязи и радиодоступа_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:05.673 +03:00 [Information] File manager: steped in programm number 11.03.03
+2017-11-20 14:12:05.688 +03:00 [Information] File manager: steped in programm with name Конструирование и технология электронно-вычислительных средств_очная
+2017-11-20 14:12:05.689 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:05.690 +03:00 [Information] File manager: steped in programm with name Конструирование и технология электронно-вычислительных средств_очно-заочная
+2017-11-20 14:12:05.691 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:05.692 +03:00 [Information] File manager: steped in programm with name Проектирование и технология электронно-вычислительных средств_очная
+2017-11-20 14:12:05.888 +03:00 [Information] Parsing curriculum УП2015_11.03.03_Проектирование и технология электронно-вычислительных средятв_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:05.896 +03:00 [Information] File manager: steped in programm with name Проектирование и технология электронно-вычислительных средств_очно-заочная
+2017-11-20 14:12:05.897 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:05.898 +03:00 [Information] File manager: steped in programm number 12.03.01
+2017-11-20 14:12:05.900 +03:00 [Information] File manager: steped in programm with name Технология приборостроения_очная
+2017-11-20 14:12:06.061 +03:00 [Information] Parsing curriculum УП2015_12.03.01_Технология приборостроения_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:06.062 +03:00 [Information] Parsing curriculum УП2015_12.03.01_Технология приборостроения_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:06.063 +03:00 [Information] Parsing curriculum УП2015_12.03.01_Технология приборостроения_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:06.070 +03:00 [Information] File manager: steped in programm with name Технология приборостроения_очно-заочная
+2017-11-20 14:12:06.253 +03:00 [Error] Parsing curriculum УП2015_12.03.01_Технология приборостроения_для_оз..xlsx. Error during parsing: Can't define education form оз.
+2017-11-20 14:12:06.284 +03:00 [Information] File manager: steped in programm with name Цифровые технологии в приборостроении
+2017-11-20 14:12:06.285 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:06.286 +03:00 [Information] File manager: steped in programm number 12.03.02
+2017-11-20 14:12:06.287 +03:00 [Information] File manager: steped in programm with name Видеоинформационные системы
+2017-11-20 14:12:06.288 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:06.289 +03:00 [Information] File manager: steped in programm with name Оптико-цифровые систем
+2017-11-20 14:12:06.291 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:06.292 +03:00 [Information] File manager: steped in programm with name Оптико-электронные приборы и системы_очная
+2017-11-20 14:12:06.418 +03:00 [Information] Parsing curriculum УП2015_12.03.02_Оптико-электронные приборы и системы_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:06.419 +03:00 [Information] Parsing curriculum УП2015_12.03.02_Оптико-электронные приборы и системы_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:06.420 +03:00 [Information] Parsing curriculum УП2015_12.03.02_Оптико-электронные приборы и системы_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:06.427 +03:00 [Information] File manager: steped in programm with name Оптико-электронные приборы и системы_очно-заочная
+2017-11-20 14:12:06.555 +03:00 [Information] Parsing curriculum УП2015_12.03.02_Оптико-электронные приборы и системы_для_оз.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:06.556 +03:00 [Information] Parsing curriculum УП2015_12.03.02_Оптико-электронные приборы и системы_для_оз.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:06.557 +03:00 [Information] Parsing curriculum УП2015_12.03.02_Оптико-электронные приборы и системы_для_оз.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:06.567 +03:00 [Information] File manager: steped in programm with name Оптические технологии и материалы
+2017-11-20 14:12:06.568 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:06.568 +03:00 [Information] File manager: steped in programm with name Прикладная и компьютерная оптика
+2017-11-20 14:12:06.729 +03:00 [Information] Parsing curriculum УП2015_12.03.02_Прикладная и компьютерная оптика_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:06.730 +03:00 [Information] Parsing curriculum УП2015_12.03.02_Прикладная и компьютерная оптика_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:06.731 +03:00 [Information] Parsing curriculum УП2015_12.03.02_Прикладная и компьютерная оптика_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:06.740 +03:00 [Information] File manager: steped in programm with name Проектирование и метрология оптико-электронных приборов
+2017-11-20 14:12:06.936 +03:00 [Information] Parsing curriculum УП2015_12.03.02_Проектирование и метрология оптико-электронных приборов специального назначения_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:06.945 +03:00 [Information] File manager: steped in programm with name Техническая оптика
+2017-11-20 14:12:07.760 +03:00 [Error] Parsing curriculum УП2015_12.03.02_Техническая оптика_для_о.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:07.783 +03:00 [Information] File manager: steped in programm number 12.03.03
+2017-11-20 14:12:07.814 +03:00 [Information] File manager: steped in programm with name Компьютерная фотоника
+2017-11-20 14:12:07.828 +03:00 [Information] File manager: steped in programm with name Компьютерная фотоника и обработка изображений
+2017-11-20 14:12:07.828 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:07.829 +03:00 [Information] File manager: steped in programm with name Компьютерное проектирование приборов фотоники
+2017-11-20 14:12:07.830 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:07.831 +03:00 [Information] File manager: steped in programm with name Наноматериалы и нанотехнологии фотоники и оптоинформатики
+2017-11-20 14:12:07.969 +03:00 [Information] Parsing curriculum УП2015_12.03.03_Наноматериалы и нанотехнологии фотоники и оптоинформатики_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:07.980 +03:00 [Information] File manager: steped in programm with name Оптика наноструктур
+2017-11-20 14:12:08.173 +03:00 [Information] Parsing curriculum УП2015_12.03.03_Оптика наноструктур_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:08.181 +03:00 [Information] File manager: steped in programm with name Оптические и квантовые технологии в коммуникациях
+2017-11-20 14:12:08.182 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:08.183 +03:00 [Information] File manager: steped in programm with name Оптические и квантовые технологии передачи, записи и обработки информации
+2017-11-20 14:12:08.382 +03:00 [Information] Parsing curriculum УП2015_12.03.03_Оптические и квантовые технологии передачи, записи и обработки информации_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:08.390 +03:00 [Information] File manager: steped in programm with name Оптическое материаловедение
+2017-11-20 14:12:08.391 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:08.392 +03:00 [Information] File manager: steped in programm with name Фемтотехнологии фотоники и оптоинформатики
+2017-11-20 14:12:08.394 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:08.394 +03:00 [Information] File manager: steped in programm with name Физика наноструктур
+2017-11-20 14:12:08.539 +03:00 [Information] Parsing curriculum УП2015_12.03.03_Физика наноструктур_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:08.546 +03:00 [Information] File manager: steped in programm number 12.03.05
+2017-11-20 14:12:08.547 +03:00 [Information] File manager: steped in programm with name Лазерная техника и лазерные технологии
+2017-11-20 14:12:08.565 +03:00 [Information] File manager: steped in programm with name Лазерные биомедицинские технологии
+2017-11-20 14:12:08.566 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:08.566 +03:00 [Information] File manager: steped in programm with name Лазерные микро- и нанотехнологии
+2017-11-20 14:12:08.568 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:08.568 +03:00 [Information] File manager: steped in programm with name Лазерные технологии
+2017-11-20 14:12:08.569 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:08.570 +03:00 [Information] File manager: steped in programm with name Лазеры для информационно-коммуникационных систем
+2017-11-20 14:12:08.571 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:08.571 +03:00 [Information] File manager: steped in programm number 13.03.02
+2017-11-20 14:12:08.572 +03:00 [Information] File manager: steped in programm with name Цифровой электропривод робототехнических комплексов
+2017-11-20 14:12:08.573 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:08.573 +03:00 [Information] File manager: steped in programm with name Электропривод и автоматика
+2017-11-20 14:12:08.592 +03:00 [Error] Parsing curriculum УП2015_13.03.02_Электропривод и автоматика_для_о.xlsx. Error during parsing: Процесс не может получить доступ к файлу "C:\Users\baski\Documents\База ОПОП\13.03.02\Электропривод и автоматика\2015\УП2015_13.03.02_Электропривод и автоматика_для_о.xlsx", так как этот файл используется другим процессом.
+2017-11-20 14:12:08.624 +03:00 [Information] File manager: steped in programm number 14.03.01
+2017-11-20 14:12:08.664 +03:00 [Information] File manager: steped in programm with name Информационные технологии в энергетике
+2017-11-20 14:12:08.667 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:08.667 +03:00 [Information] File manager: steped in programm with name Информационные технологии в энергетических процессах
+2017-11-20 14:12:08.816 +03:00 [Error] Parsing curriculum УП2015_14.03.01_Информационные технологии в энергетических процессах_для_о..xlsx. Error during parsing: Can't define education form о.
+2017-11-20 14:12:08.839 +03:00 [Information] File manager: steped in programm with name Техника и физика низких температур_заочная
+2017-11-20 14:12:09.394 +03:00 [Error] Parsing curriculum УП2015_14.03.01_Техника и физика низких температур_для_зо.xlsx. Error during parsing: Can't define education form зо
+2017-11-20 14:12:09.417 +03:00 [Information] File manager: steped in programm with name Техника и физика низких температур_очная
+2017-11-20 14:12:09.550 +03:00 [Information] Parsing curriculum УП2015_14.03.01_Техника и физика низких температур_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:09.552 +03:00 [Information] Parsing curriculum УП2015_14.03.01_Техника и физика низких температур_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:09.553 +03:00 [Information] Parsing curriculum УП2015_14.03.01_Техника и физика низких температур_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:09.562 +03:00 [Information] File manager: steped in programm number 15.03.02
+2017-11-20 14:12:09.594 +03:00 [Information] File manager: steped in programm with name Машины и аппараты пищевых производств_заочная
+2017-11-20 14:12:10.190 +03:00 [Error] Parsing curriculum УП2015_15.03.02_Машины и аппараты пищевых производств_для_з.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:10.216 +03:00 [Information] File manager: steped in programm with name Машины и аппараты пищевых производств_очная
+2017-11-20 14:12:10.216 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:10.217 +03:00 [Information] File manager: steped in programm with name Машины и оборудование биотехнологий_заочная
+2017-11-20 14:12:10.864 +03:00 [Error] Parsing curriculum УП2015_15.03.02_Машины и оборудование биотехнологий_для_з.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:10.886 +03:00 [Information] File manager: steped in programm with name Машины и оборудование биотехнологий_очная
+2017-11-20 14:12:11.046 +03:00 [Information] Parsing curriculum УП2015_15.03.02_Машины и оборудование биотехнологий_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:11.056 +03:00 [Information] File manager: steped in programm number 15.03.04
+2017-11-20 14:12:11.095 +03:00 [Information] File manager: steped in programm with name Автоматизация технологических процессов и производств (пищевой промышленности)_заочная
+2017-11-20 14:12:11.611 +03:00 [Error] Parsing curriculum УП2015_15.03.04_Автоматизация технологических ПиП в (пп)_для_з.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:11.636 +03:00 [Information] File manager: steped in programm with name Автоматизация технологических процессов и производств (пищевой промышленности)_очная
+2017-11-20 14:12:11.760 +03:00 [Information] Parsing curriculum УП2015_15.03.04_Автоматизация технологических ПиП в (пп)_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:11.769 +03:00 [Information] File manager: steped in programm with name Управление в биотехнологических системах
+2017-11-20 14:12:11.770 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:11.771 +03:00 [Information] File manager: steped in programm number 15.03.06
+2017-11-20 14:12:11.781 +03:00 [Information] File manager: steped in programm with name Индустриальная робототехника
+2017-11-20 14:12:11.782 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:11.782 +03:00 [Information] File manager: steped in programm with name Интеллектуальная робототехника (нет года набора)
+2017-11-20 14:12:11.840 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:11.841 +03:00 [Information] File manager: steped in programm with name Интеллектуальные технологии в робототехнике (СУиИ)
+2017-11-20 14:12:12.003 +03:00 [Information] Parsing curriculum УП2015_15.03.06_Интеллектуальные технологии в робототехнике_для_о.xlsx. Can't read activity hours in 850:5
+2017-11-20 14:12:12.004 +03:00 [Information] Parsing curriculum УП2015_15.03.06_Интеллектуальные технологии в робототехнике_для_о.xlsx. Can't read activity hours in 851:5
+2017-11-20 14:12:12.004 +03:00 [Information] Parsing curriculum УП2015_15.03.06_Интеллектуальные технологии в робототехнике_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:12.012 +03:00 [Information] File manager: steped in programm with name Мехатроника (МТ)
+2017-11-20 14:12:12.198 +03:00 [Information] Parsing curriculum УП2015_15.03.06_Мехатроника_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:12.200 +03:00 [Information] Parsing curriculum УП2015_15.03.06_Мехатроника_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:12.201 +03:00 [Information] Parsing curriculum УП2015_15.03.06_Мехатроника_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:12.208 +03:00 [Information] File manager: steped in programm number 16.03.01
+2017-11-20 14:12:12.230 +03:00 [Information] File manager: steped in programm with name Лазерная инженерия
+2017-11-20 14:12:12.231 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:12.232 +03:00 [Information] File manager: steped in programm with name Лазерные технологии
+2017-11-20 14:12:12.375 +03:00 [Information] Parsing curriculum УП2015_16.03.01_Лазерные технологии_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:12.376 +03:00 [Information] Parsing curriculum УП2015_16.03.01_Лазерные технологии_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:12.376 +03:00 [Information] Parsing curriculum УП2015_16.03.01_Лазерные технологии_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:12.386 +03:00 [Information] File manager: steped in programm with name Нанофотоника и квантовая оптика
+2017-11-20 14:12:12.386 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:12.387 +03:00 [Information] File manager: steped in programm with name Нефтехимия и аналитическое приборостроение
+2017-11-20 14:12:12.388 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:12.388 +03:00 [Information] File manager: steped in programm with name Приборостроение в нефтехимии
+2017-11-20 14:12:12.389 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:12.389 +03:00 [Information] File manager: steped in programm with name Световая инженерия
+2017-11-20 14:12:13.084 +03:00 [Error] Parsing curriculum УП2015_16.03.01_Световая инженерия_для_о.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:13.122 +03:00 [Information] File manager: steped in programm with name Сенсоры и сенсорные сети
+2017-11-20 14:12:13.240 +03:00 [Information] Parsing curriculum УП2015_16.03.01_Сенсоры и сенсорные сети_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:13.241 +03:00 [Information] Parsing curriculum УП2015_16.03.01_Сенсоры и сенсорные сети_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:13.242 +03:00 [Information] Parsing curriculum УП2015_16.03.01_Сенсоры и сенсорные сети_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:13.251 +03:00 [Information] File manager: steped in programm with name Теплофизика
+2017-11-20 14:12:13.419 +03:00 [Information] Parsing curriculum УП2015_16.03.01_Теплофизика_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:13.420 +03:00 [Information] Parsing curriculum УП2015_16.03.01_Теплофизика_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:13.421 +03:00 [Information] Parsing curriculum УП2015_16.03.01_Теплофизика_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:13.427 +03:00 [Information] File manager: steped in programm with name Физика когерентно-оптических и оптоэлектронных систем (без ППС)
+2017-11-20 14:12:13.607 +03:00 [Error] Parsing curriculum УП2015_16.03.01_Физика когерентно-оптических и оптоэлектронных систем_для_о.xlsx. Error during parsing: Worksheet position out of range.
+2017-11-20 14:12:13.631 +03:00 [Information] File manager: steped in programm with name Физические принципы аналитического приборостроения
+2017-11-20 14:12:13.802 +03:00 [Information] Parsing curriculum УП2015_16.03.01_Физические принципы аналитического приборостроения_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:13.803 +03:00 [Information] Parsing curriculum УП2015_16.03.01_Физические принципы аналитического приборостроения_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:13.804 +03:00 [Information] Parsing curriculum УП2015_16.03.01_Физические принципы аналитического приборостроения_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:13.810 +03:00 [Information] File manager: steped in programm number 16.03.03
+2017-11-20 14:12:13.850 +03:00 [Information] File manager: steped in programm with name Криогенная техника и технологии_заочная
+2017-11-20 14:12:14.813 +03:00 [Error] Parsing curriculum УП2015_16.03.03_Криогенная техника и технологии_для_з.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:14.838 +03:00 [Information] File manager: steped in programm with name Криогенная техника и технологии_очная
+2017-11-20 14:12:14.976 +03:00 [Information] Parsing curriculum УП2015_16.03.03_Криогенная техника и технологии_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:14.977 +03:00 [Information] Parsing curriculum УП2015_16.03.03_Криогенная техника и технологии_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:14.978 +03:00 [Information] Parsing curriculum УП2015_16.03.03_Криогенная техника и технологии_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:14.987 +03:00 [Information] File manager: steped in programm with name Низкотемпературная техника и энергетика_заочная
+2017-11-20 14:12:14.988 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:14.989 +03:00 [Information] File manager: steped in programm with name Низкотемпературная техника и энергетика_очная
+2017-11-20 14:12:14.989 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:14.990 +03:00 [Information] File manager: steped in programm with name Системы жизнеобеспечения_заочная
+2017-11-20 14:12:15.531 +03:00 [Error] Parsing curriculum УП2015_16.03.03_Системы жизнеобеспечения_для_з.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:15.554 +03:00 [Information] File manager: steped in programm with name Системы жизнеобеспечения_очная
+2017-11-20 14:12:15.698 +03:00 [Information] Parsing curriculum УП2015_16.03.03_Системы жизнеобеспечения_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:15.700 +03:00 [Information] Parsing curriculum УП2015_16.03.03_Системы жизнеобеспечения_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:15.701 +03:00 [Information] Parsing curriculum УП2015_16.03.03_Системы жизнеобеспечения_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:15.710 +03:00 [Information] File manager: steped in programm with name Холодильная техника и технологии_заочная
+2017-11-20 14:12:16.266 +03:00 [Error] Parsing curriculum УП2015_16.03.03_Холодильная техника и технологии_для_з.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:16.288 +03:00 [Information] File manager: steped in programm with name Холодильная техника и технологии_очная
+2017-11-20 14:12:16.432 +03:00 [Information] Parsing curriculum УП2015_16.03.03_Холодильная техника и технологии_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:16.433 +03:00 [Information] Parsing curriculum УП2015_16.03.03_Холодильная техника и технологии_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:16.434 +03:00 [Information] Parsing curriculum УП2015_16.03.03_Холодильная техника и технологии_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:16.446 +03:00 [Information] File manager: steped in programm number 18.03.02
+2017-11-20 14:12:16.471 +03:00 [Information] File manager: steped in programm with name Зеленые технологии и ресурсоэффективность
+2017-11-20 14:12:16.472 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:16.473 +03:00 [Information] File manager: steped in programm with name Информационные технологии и энергосбережение на предприятиях ТЭК
+2017-11-20 14:12:16.628 +03:00 [Information] Parsing curriculum УП2015_18.03.02_Информационные технологии и энергосбер. на предприятиях ТЭК_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:16.628 +03:00 [Information] Parsing curriculum УП2015_18.03.02_Информационные технологии и энергосбер. на предприятиях ТЭК_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:16.629 +03:00 [Information] Parsing curriculum УП2015_18.03.02_Информационные технологии и энергосбер. на предприятиях ТЭК_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:16.637 +03:00 [Information] File manager: steped in programm with name Охрана окружающей среды и рациональное использование природных ресурсов_заочная
+2017-11-20 14:12:17.120 +03:00 [Error] Parsing curriculum УП2015_18.03.03_Охрана окружающей среды и рациональное использование природных ресурсов_для_з.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:17.143 +03:00 [Information] File manager: steped in programm with name Охрана окружающей среды и рациональное использование природных ресурсов_очная
+2017-11-20 14:12:17.284 +03:00 [Information] Parsing curriculum УП2015_18.03.02_Охрана окружающей среды и рациональное использование природных ресурсов_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:17.286 +03:00 [Information] Parsing curriculum УП2015_18.03.02_Охрана окружающей среды и рациональное использование природных ресурсов_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:17.287 +03:00 [Information] Parsing curriculum УП2015_18.03.02_Охрана окружающей среды и рациональное использование природных ресурсов_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:17.295 +03:00 [Information] File manager: steped in programm with name Экологический инжиниринг_заочная
+2017-11-20 14:12:17.297 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:17.298 +03:00 [Information] File manager: steped in programm with name Экологический инжиниринг_очная
+2017-11-20 14:12:17.298 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:17.299 +03:00 [Information] File manager: steped in programm with name Энерго- и ресурсосбережение на предприятиях ТЭК
+2017-11-20 14:12:17.300 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:17.301 +03:00 [Information] File manager: steped in programm number 19.03.01
+2017-11-20 14:12:17.335 +03:00 [Information] File manager: steped in programm with name Биоинженерия
+2017-11-20 14:12:17.336 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:17.336 +03:00 [Information] File manager: steped in programm with name Биотехнология и биоинженерия
+2017-11-20 14:12:17.527 +03:00 [Information] Parsing curriculum УП2015_19.03.01_Биотехнология и биоинженерия_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:17.534 +03:00 [Information] File manager: steped in programm with name Пищевая биотехнология_заочная
+2017-11-20 14:12:18.058 +03:00 [Error] Parsing curriculum УП2015_19.03.01_Пищевая биотехнология_для_з.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:18.078 +03:00 [Information] File manager: steped in programm with name Пищевая биотехнология_очная
+2017-11-20 14:12:18.193 +03:00 [Information] Parsing curriculum УП2015_19.03.01_Пищевая биотехнология_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:18.201 +03:00 [Information] File manager: steped in programm number 19.03.02
+2017-11-20 14:12:18.232 +03:00 [Information] File manager: steped in programm with name Алкогольные и безалогольные напитки_заочная
+2017-11-20 14:12:18.233 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:18.234 +03:00 [Information] File manager: steped in programm with name Алкогольные и безалогольные напитки_очная
+2017-11-20 14:12:18.235 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:18.237 +03:00 [Information] File manager: steped in programm with name Пищевые продукты раст происхождения_заочная
+2017-11-20 14:12:18.238 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:18.238 +03:00 [Information] File manager: steped in programm with name Пищевые продукты раст происхождения_очная
+2017-11-20 14:12:18.240 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:18.241 +03:00 [Information] File manager: steped in programm with name Технология бродильных производств и виноделия_заочная
+2017-11-20 14:12:18.765 +03:00 [Error] Parsing curriculum УП2015_19.03.02_Технология бродильных производств и виноделия_для_з.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:18.798 +03:00 [Information] File manager: steped in programm with name Технология бродильных производств и виноделия_очная
+2017-11-20 14:12:18.987 +03:00 [Information] Parsing curriculum УП2015_19.03.02_Технология бродильных производств и виноделия_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:18.995 +03:00 [Information] File manager: steped in programm with name Технология консервов и пищеконцентратов_заочная
+2017-11-20 14:12:19.531 +03:00 [Error] Parsing curriculum УП2015_19.03.02_Технология консервов и пищеконцентратов_для_з.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:19.553 +03:00 [Information] File manager: steped in programm with name Технология консервов и пищеконцентратов_очная
+2017-11-20 14:12:19.700 +03:00 [Information] Parsing curriculum УП2015_19.03.02_Технология консервов и пищеконцентратов_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:19.709 +03:00 [Information] File manager: steped in programm with name Технология хлеба, кондитерских и макаронных изделий_заочная
+2017-11-20 14:12:20.265 +03:00 [Error] Parsing curriculum УП2015_19.03.02_Технология хлеба, кондитерских и макаронных изделий_для_з.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:20.288 +03:00 [Information] File manager: steped in programm with name Технология хлеба, кондитерских и макаронных изделий_очная
+2017-11-20 14:12:20.448 +03:00 [Information] Parsing curriculum УП2015_19.03.02_Технология хлеба, кондитерских и макаронных изделий_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:20.459 +03:00 [Information] File manager: steped in programm with name Хлебопекарное и кондитерское производство_заочная
+2017-11-20 14:12:20.460 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:20.460 +03:00 [Information] File manager: steped in programm with name Хлебопекарное и кондитерское производство_очная
+2017-11-20 14:12:20.461 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:20.462 +03:00 [Information] File manager: steped in programm number 19.03.03
+2017-11-20 14:12:20.481 +03:00 [Information] File manager: steped in programm with name Инновационные технологии в молочной промышленности_заочная
+2017-11-20 14:12:20.482 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:20.483 +03:00 [Information] File manager: steped in programm with name Инновационные технологии в молочной промышленности_очная
+2017-11-20 14:12:20.484 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:20.485 +03:00 [Information] File manager: steped in programm with name Пищевые продукты животного происхождения_заочная
+2017-11-20 14:12:20.485 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:20.486 +03:00 [Information] File manager: steped in programm with name Пищевые продукты животного происхождения_очная
+2017-11-20 14:12:20.487 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:20.488 +03:00 [Information] File manager: steped in programm with name Технология молока и молочных продуктов_заочная
+2017-11-20 14:12:21.003 +03:00 [Error] Parsing curriculum УП2015_19.03.03_Технология молока и молочных продуктов_для_з.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:21.027 +03:00 [Information] File manager: steped in programm with name Технология молока и молочных продуктов_очная
+2017-11-20 14:12:21.185 +03:00 [Information] Parsing curriculum УП2015_19.03.03_Технология молока и молочных продуктов_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:21.195 +03:00 [Information] File manager: steped in programm with name Технология мяса и мясных продуктов_заочная
+2017-11-20 14:12:21.764 +03:00 [Error] Parsing curriculum УП2015_19.03.03_Технология мяса и мясных продуктов_для_з.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:21.798 +03:00 [Information] File manager: steped in programm with name Технология мяса и мясных продуктов_очная
+2017-11-20 14:12:21.953 +03:00 [Information] Parsing curriculum УП2015_19.03.03_Технология мяса и мясных продуктов_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:21.963 +03:00 [Information] File manager: steped in programm with name Технология рыбы и рыбных продуктов_заочная
+2017-11-20 14:12:22.296 +03:00 [Error] Parsing curriculum УП2015_19.03.03_Технология рыбы и рыбных продуктов_для_з.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:22.344 +03:00 [Information] File manager: steped in programm with name Технология рыбы и рыбных продуктов_очная
+2017-11-20 14:12:22.345 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:22.345 +03:00 [Information] File manager: steped in programm number 23.03.03
+2017-11-20 14:12:22.358 +03:00 [Information] File manager: steped in programm with name Мобильные и стационарные холодильные системы_заочная
+2017-11-20 14:12:22.358 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:22.359 +03:00 [Information] File manager: steped in programm with name Мобильные и стационарные холодильные системы_очная
+2017-11-20 14:12:22.360 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:22.360 +03:00 [Information] File manager: steped in programm with name Сервис транспортных и технологических машин_заочная
+2017-11-20 14:12:22.916 +03:00 [Error] Parsing curriculum УП2015_23.03.03_Сервис транспортных и технологических машин и оборудования_для_з.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:22.944 +03:00 [Information] File manager: steped in programm with name Сервис транспортных и технологических машин_очная
+2017-11-20 14:12:23.377 +03:00 [Information] Parsing curriculum УП2015_23.03.03_Сервис транспортных и технологических машин и оборудования_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:23.378 +03:00 [Information] Parsing curriculum УП2015_23.03.03_Сервис транспортных и технологических машин и оборудования_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:23.379 +03:00 [Information] Parsing curriculum УП2015_23.03.03_Сервис транспортных и технологических машин и оборудования_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:23.437 +03:00 [Error] Parsing curriculum УП2015_23.03.03_Сервис транспортных и технологических машин и оборудования_для_о.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:23.469 +03:00 [Information] File manager: steped in programm number 24.03.02 (без ППС)
+2017-11-20 14:12:23.470 +03:00 [Information] File manager: steped in programm with name Управление движением и навигация
+2017-11-20 14:12:23.471 +03:00 [Information] File is with obsolete format change it to xlsx
+2017-11-20 14:12:23.471 +03:00 [Information] File manager: steped in programm number 27.03.04
+2017-11-20 14:12:23.492 +03:00 [Information] File manager: steped in programm with name Управление в технических системах_очная
+2017-11-20 14:12:23.643 +03:00 [Information] Parsing curriculum УП2015_27.03.04_Управление в технических системах_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:23.645 +03:00 [Information] Parsing curriculum УП2015_27.03.04_Управление в технических системах_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:23.645 +03:00 [Information] Parsing curriculum УП2015_27.03.04_Управление в технических системах_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:23.655 +03:00 [Information] File manager: steped in programm with name Управление в технических системах_очно-заочная
+2017-11-20 14:12:23.884 +03:00 [Information] Parsing curriculum УП2015_27.03.04_Управление в технических системах_для_оз.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:23.885 +03:00 [Information] Parsing curriculum УП2015_27.03.04_Управление в технических системах_для_оз.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:23.885 +03:00 [Information] Parsing curriculum УП2015_27.03.04_Управление в технических системах_для_оз.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:23.894 +03:00 [Information] File manager: steped in programm with name Управление движением и навигация
+2017-11-20 14:12:23.907 +03:00 [Information] File is with obsolete format change it to xlsx
+2017-11-20 14:12:23.908 +03:00 [Information] File manager: steped in programm number 27.03.05
+2017-11-20 14:12:23.909 +03:00 [Information] File manager: steped in programm with name Инноватика
+2017-11-20 14:12:23.909 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:23.910 +03:00 [Information] File manager: steped in programm with name Управление технологическими инновациями (УТС)
+2017-11-20 14:12:23.911 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:23.911 +03:00 [Information] File manager: steped in programm number 38.03.01
+2017-11-20 14:12:23.928 +03:00 [Information] File manager: steped in programm with name Макроэкономическое планирование и прогнозирование (ЭиСМ)
+2017-11-20 14:12:24.129 +03:00 [Information] Parsing curriculum УП2015_38.03.01_Макроэкономическое планирование и прогнозирование_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:24.130 +03:00 [Information] Parsing curriculum УП2015_38.03.01_Макроэкономическое планирование и прогнозирование_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:24.131 +03:00 [Information] Parsing curriculum УП2015_38.03.01_Макроэкономическое планирование и прогнозирование_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:24.139 +03:00 [Information] File manager: steped in programm with name Экономика предприятий и организаций (ЭиСМ)
+2017-11-20 14:12:24.278 +03:00 [Information] Parsing curriculum УП2015_38.03.01_Экономика предприятий и организаций_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:24.279 +03:00 [Information] Parsing curriculum УП2015_38.03.01_Экономика предприятий и организаций_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:24.280 +03:00 [Information] Parsing curriculum УП2015_38.03.01_Экономика предприятий и организаций_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:24.288 +03:00 [Information] File manager: steped in programm number 38.03.02
+2017-11-20 14:12:24.306 +03:00 [Information] File manager: steped in programm with name Логистика_заочная
+2017-11-20 14:12:24.307 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:24.308 +03:00 [Information] File manager: steped in programm with name Логистика_очная
+2017-11-20 14:12:24.448 +03:00 [Information] Parsing curriculum УП2015_38.03.02_Логистика_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:24.448 +03:00 [Information] Parsing curriculum УП2015_38.03.02_Логистика_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:24.449 +03:00 [Information] Parsing curriculum УП2015_38.03.02_Логистика_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:24.455 +03:00 [Information] File manager: steped in programm with name Маркетинг
+2017-11-20 14:12:24.661 +03:00 [Information] Parsing curriculum УП2015_38.03.02_Маркетинг_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:24.662 +03:00 [Information] Parsing curriculum УП2015_38.03.02_Маркетинг_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:24.663 +03:00 [Information] Parsing curriculum УП2015_38.03.02_Маркетинг_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:24.670 +03:00 [Information] File manager: steped in programm with name Производственный менеджмент - организация и управление
+2017-11-20 14:12:25.937 +03:00 [Error] Parsing curriculum УП2015_38.03.02_Производственный менеджмент - организация и управление_для_з.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:25.960 +03:00 [Information] File manager: steped in programm with name Производственный менеджмент_заочная
+2017-11-20 14:12:25.961 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:25.962 +03:00 [Information] File manager: steped in programm with name Производственный менеджмент_очная
+2017-11-20 14:12:26.127 +03:00 [Information] Parsing curriculum УП2015_38.03.02_Производственный менеджмент_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:26.128 +03:00 [Information] Parsing curriculum УП2015_38.03.02_Производственный менеджмент_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:26.128 +03:00 [Information] Parsing curriculum УП2015_38.03.02_Производственный менеджмент_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:26.143 +03:00 [Information] File manager: steped in programm with name Производственный менеджмент_очно-заочная
+2017-11-20 14:12:26.144 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:26.144 +03:00 [Information] File manager: steped in programm with name Управление малым бизнесом_заочная
+2017-11-20 14:12:26.145 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:26.146 +03:00 [Information] File manager: steped in programm with name Управление малым бизнесом_очная
+2017-11-20 14:12:26.302 +03:00 [Information] Parsing curriculum УП2015_38.03.02_Управление малым бизнесом_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:26.303 +03:00 [Information] Parsing curriculum УП2015_38.03.02_Управление малым бизнесом_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:26.304 +03:00 [Information] Parsing curriculum УП2015_38.03.02_Управление малым бизнесом_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:26.313 +03:00 [Information] File manager: steped in programm with name Управление проектом_заочная
+2017-11-20 14:12:26.314 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:26.314 +03:00 [Information] File manager: steped in programm with name Управление проектом_очная
+2017-11-20 14:12:26.516 +03:00 [Information] Parsing curriculum УП2015_38.03.02_Управление проектом_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:26.517 +03:00 [Information] Parsing curriculum УП2015_38.03.02_Управление проектом_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:26.518 +03:00 [Information] Parsing curriculum УП2015_38.03.02_Управление проектом_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:26.525 +03:00 [Information] File manager: steped in programm with name Управление проектом_очно-заочная
+2017-11-20 14:12:26.527 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:26.528 +03:00 [Information] File manager: steped in programm with name Управление технологическими инновациями_заочная
+2017-11-20 14:12:26.528 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:26.529 +03:00 [Information] File manager: steped in programm with name Управление технологическими инновациями_очная
+2017-11-20 14:12:26.530 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:26.531 +03:00 [Information] File manager: steped in programm with name Управление технологическими инновациями_очно-заочная
+2017-11-20 14:12:26.531 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:26.532 +03:00 [Information] File manager: steped in programm with name Финансовый менеджмент_заочная
+2017-11-20 14:12:26.533 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:26.533 +03:00 [Information] File manager: steped in programm with name Финансовый менеджмент_орг-я и упр-е финансами на предпр-и отрасли_заочная
+2017-11-20 14:12:27.813 +03:00 [Error] Parsing curriculum УП2015_38.03.02_Финансовый менеджмент_орг и упр финансами на предприятии отрасли_для_з.xlsx. Error during parsing: Ссылка на объект не указывает на экземпляр объекта.
+2017-11-20 14:12:27.834 +03:00 [Information] File manager: steped in programm with name Финансовый менеджмент_орг-я и упр-е финансами на предпр-и отрасли_заочная сокращенная
+2017-11-20 14:12:28.333 +03:00 [Error] Parsing curriculum УП2015_38.03.02_Финансовый менеджмент_орг и упр финансами на предприятии отрасли_для_зсф.xlsx. Error during parsing: Can't define education form зсф
+2017-11-20 14:12:28.372 +03:00 [Information] File manager: steped in programm with name Финансовый менеджмент_очная
+2017-11-20 14:12:28.508 +03:00 [Information] Parsing curriculum УП2015_38.03.02_Финансовый менеджмент_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:28.509 +03:00 [Information] Parsing curriculum УП2015_38.03.02_Финансовый менеджмент_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:28.510 +03:00 [Information] Parsing curriculum УП2015_38.03.02_Финансовый менеджмент_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:28.517 +03:00 [Information] File manager: steped in programm number 38.03.05
+2017-11-20 14:12:28.518 +03:00 [Information] File manager: steped in programm with name Архитектура предприятия
+2017-11-20 14:12:28.687 +03:00 [Information] Parsing curriculum УП2015_38.03.05_Архитектура предприятия_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:28.688 +03:00 [Information] Parsing curriculum УП2015_38.03.05_Архитектура предприятия_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:28.689 +03:00 [Information] Parsing curriculum УП2015_38.03.05_Архитектура предприятия_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:28.697 +03:00 [Information] File manager: steped in programm with name Информационные технологии в бизнесе
+2017-11-20 14:12:28.697 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:28.698 +03:00 [Information] File manager: steped in programm number 44.03.04
+2017-11-20 14:12:28.699 +03:00 [Information] File manager: steped in programm with name Компьтерная графика и дизайн
+2017-11-20 14:12:28.875 +03:00 [Information] Parsing curriculum УП2015_44.03.04_Компьютерная графика и дизайн_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:28.876 +03:00 [Information] Parsing curriculum УП2015_44.03.04_Компьютерная графика и дизайн_для_о.xlsx. Can't read activity hours in 856:5
+2017-11-20 14:12:28.876 +03:00 [Information] Parsing curriculum УП2015_44.03.04_Компьютерная графика и дизайн_для_о.xlsx. Attestation has more then one row in attestation table
+2017-11-20 14:12:28.884 +03:00 [Information] File manager: steped in programm number 45.03.04
+2017-11-20 14:12:28.884 +03:00 [Information] File manager: steped in programm with name Интеллектуальные системы в гуманитарной сфере
+2017-11-20 14:12:29.028 +03:00 [Information] Parsing curriculum УП2015_45.03.04_Интеллектуальные системы в гуманитарной сфере_для_о.xlsx. Can't read activity hours in 855:5
+2017-11-20 14:12:29.034 +03:00 [Information] File manager: steped in programm with name Сетевые интеллектуальные системы в гуманитарной сфере
+2017-11-20 14:12:29.035 +03:00 [Information] File Manager: no directory for 2015 year
+2017-11-20 14:12:32.003 +03:00 [Information] Application finished
