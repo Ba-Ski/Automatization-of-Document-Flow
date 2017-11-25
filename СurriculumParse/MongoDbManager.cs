@@ -5,7 +5,7 @@ using СurriculumParse.Structures;
 
 namespace СurriculumParse
 {
-    internal class MongoDbManager : IDBManager
+    public class MongoDbManager : IDBManager
     {
         public const string ConnectionStringName = "mongodb://localhost";
         public const string DatabaseName = "test";
@@ -37,20 +37,30 @@ namespace СurriculumParse
             await _database.GetCollection<Curriculum>(CurriculumCollectionName).InsertOneAsync(curriculum);
         }
 
+        public async Task ReplaceCurriculumAsync(Curriculum curriculum)
+        {
+            var filterBuilder = Builders<Curriculum>.Filter;
+            var filter = filterBuilder.Eq(c => c.SpecialityNumber, curriculum.SpecialityNumber) &
+                         filterBuilder.Eq(c => c.Profile, curriculum.Profile) &
+                         filterBuilder.Eq(c => c.Year, curriculum.Year) &
+                         filterBuilder.Eq(c => c.EdForm, curriculum.EdForm);
+            await _database.GetCollection<Curriculum>(CurriculumCollectionName).ReplaceOneAsync(filter,curriculum,new UpdateOptions {IsUpsert = true});
+        }
+
         public async Task<Curriculum> GetCurriculumByIdAsync(Guid id)
         {
             var filter = Builders<Curriculum>.Filter.Eq("Id", id);
             return await _database.GetCollection<Curriculum>(CurriculumCollectionName).Find(filter).FirstAsync();
         }
 
-        public async Task<Curriculum> GetCurriculumAsync(string specialityNumber, string profile, int year, int edForm)
+        public Curriculum GetCurriculumAsync(string specialityNumber, string profile, int year, int edForm)
         {
             var filterBuilder = Builders<Curriculum>.Filter;
             var filter = filterBuilder.Eq(c => c.SpecialityNumber, specialityNumber) &
                          filterBuilder.Eq(c => c.Profile, profile) &
                          filterBuilder.Eq(c => c.Year, year) &
                          filterBuilder.Eq(c => c.EdForm, edForm); 
-            return await _database.GetCollection<Curriculum>(CurriculumCollectionName).Find(filter).FirstAsync();
+            return _database.GetCollection<Curriculum>(CurriculumCollectionName).Find(filter).FirstOrDefault();
         }
 
         public async Task InsertParseError()

@@ -20,54 +20,54 @@ namespace СurriculumParse
         }
         static void Main(string[] args)
         {
-            var logger = new SerilogFileLogger();
-            var dbmanager = new MongoDbManager();
-            var parser = new CurriculumReader(logger);
-            logger.Info($"Application started");
-            var path = GetPath(args);
-            StartMongod();
+        //    var logger = new SerilogFileLogger();
+        //    var dbmanager = new MongoDbManager();
+        //    var parser = new CurriculumReader(logger);
+        //    logger.Info($"Application started");
+        //    var path = GetPath(args);
+        //    StartMongod();
 
-            //ParseCurriculumsDirrectory(path, dbmanager, parser, logger);
+        //    //ParseCurriculumsDirrectory(path, dbmanager, parser, logger);
 
-            var pps = new PPSReader(logger, dbmanager);
-            pps.WorkWithPPS("C:\\Users\\baski\\Documents\\База ОПОП\\09.03.01\\Вычислительные машины, комплексы, системы и сети_очная\\2015\\ППС_09.03.01_Вычисл.машины,компл,сис. и сети_2015_оН.xlsx");
+        //    var pps = new PPSReader(logger, dbmanager);
+        //    pps.WorkWithPPS("C:\\Users\\baski\\Documents\\База ОПОП\\09.03.01\\Вычислительные машины, комплексы, системы и сети_очная\\2015\\ППС_09.03.01_Вычисл.машины,компл,сис. и сети_2015_оН.xlsx");
 
-            //ParseCurriculum(parser, dbmanager);
-            logger.Info($"Application finished");
-            //stopping the mongod server (when app is closing)
-            _mongod.Kill();
-        }
+        //    //ParseCurriculum(parser, dbmanager);
+        //    logger.Info($"Application finished");
+        //    //stopping the mongod server (when app is closing)
+        //    _mongod.Kill();
+        //}
 
-        private static void ParseCurriculum(CurriculumReader parser, MongoDbManager dbmanager)
-        {
-            var obj = parser.ParseDocumenr(
-                "C:\\Users\\baski\\Documents\\База ОПОП\\09.03.01\\Вычислительные машины, комплексы, системы и сети_очная\\2015\\УП2015_09.03.01_Вычислительные машины, комплексы, системы и сети_для_о.xlsx");
-            dbmanager.InsertCurriculumAsync(obj).GetAwaiter().GetResult();
-        }
+        //private static void ParseCurriculum(CurriculumReader parser, MongoDbManager dbmanager)
+        //{
+        //    var obj = parser.ParseDocumenr(
+        //        "C:\\Users\\baski\\Documents\\База ОПОП\\09.03.01\\Вычислительные машины, комплексы, системы и сети_очная\\2015\\УП2015_09.03.01_Вычислительные машины, комплексы, системы и сети_для_о.xlsx");
+        //    dbmanager.InsertCurriculumAsync(obj).GetAwaiter().GetResult();
+        //}
 
-        private static void ParsePPS(string path, ILogger logger, IDBManager dbManager)
-        {
-            var pps = new PPSReader(logger, dbManager);
-            pps.WorkWithPPS(path);
-        }
+        //private static void ParsePPS(string path, ILogger logger, IDBManager dbManager)
+        //{
+        //    var pps = new PPSReader(logger, dbManager);
+        //    pps.WorkWithPPS(path);
+        //}
 
-        private static void ParseCurriculumsDirrectory(string path, IDBManager dbmanager, IDocumentParser parser,
-            ILogger logger)
-        {
-            var fileManager = new FilesManager(path, dbmanager, parser, logger);
-            fileManager.ProcessAllProgamms();
-        }
+        //private static void ParseCurriculumsDirrectory(string path, IDBManager dbmanager, IDocumentParser parser,
+        //    ILogger logger)
+        //{
+        //    var fileManager = new FilesManager(path, dbmanager, parser, logger);
+        //    fileManager.ProcessAllProgamms();
+        //}
 
-        private static void StartMongod()
-        {
-            var start = new ProcessStartInfo
-            {
-                FileName = "mongod.exe",
-                WindowStyle = ProcessWindowStyle.Hidden,
-                Arguments = @"--config c:\mongod.conf"
-            };
+        //private static void StartMongod()
+        //{
+        //    var start = new ProcessStartInfo
+        //    {
+        //        FileName = "mongod.exe",
+        //        WindowStyle = ProcessWindowStyle.Hidden,
+        //        Arguments = @"--config c:\mongod.conf"
+        //    };
 
-            _mongod = Process.Start(start);
+        //    _mongod = Process.Start(start);
         }
 
     }

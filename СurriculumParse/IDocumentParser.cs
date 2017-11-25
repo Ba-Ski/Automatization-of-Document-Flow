@@ -2,7 +2,7 @@
 
 namespace СurriculumParse
 {
-    internal interface IDocumentParser
+    public interface IDocumentParser
     {
         Curriculum ParseDocumenr(string path);
     }

@@ -4,10 +4,11 @@ using СurriculumParse.Structures;
 
 namespace СurriculumParse
 {
-    internal interface IDBManager
+    public interface IDBManager
     {
         Task InsertCurriculumAsync(Curriculum curriculum);
+        Task ReplaceCurriculumAsync(Curriculum curriculum);
         Task<Curriculum> GetCurriculumByIdAsync(Guid id);
-        Task<Curriculum> GetCurriculumAsync(string specialityNumber, string profile, int year, int edForm);
+        Curriculum GetCurriculumAsync(string specialityNumber, string profile, int year, int edForm);
     }
 }

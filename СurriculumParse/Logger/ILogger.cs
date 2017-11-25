@@ -2,7 +2,7 @@
 
 namespace СurriculumParse.Logger
 {
-    internal interface ILogger
+    public interface ILogger
     {
         void Info(string prefix);
 

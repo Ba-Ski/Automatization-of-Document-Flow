@@ -4,7 +4,7 @@ using Serilog.Events;
 
 namespace СurriculumParse.Logger
 {
-    internal class SerilogFileLogger : ILogger
+    public class SerilogFileLogger : ILogger
     {
         private readonly Serilog.Core.Logger _logger;
 
@@ -30,7 +30,6 @@ namespace СurriculumParse.Logger
             var baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
 
             return new LoggerConfiguration()
-                .WriteTo.LiterateConsole()
                 .WriteTo.Async(i => i.RollingFile(baseDirectory + "Logs/log-{Date}.txt"))
                 .WriteTo.Logger(l => l.Filter.ByIncludingOnly(evt => evt.Level == LogEventLevel.Error).WriteTo
                     .Async(i => i.RollingFile(baseDirectory + "Logs/error-{Date}.txt")))

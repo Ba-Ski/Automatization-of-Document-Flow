@@ -66,6 +66,14 @@ namespace СurriculumParse.ExcelParsers
         Department = 16
     };
 
+    public enum PpsReadStatus
+    {
+        Success,
+        CurriculumNotFound,
+        PpsReadError,
+        FileOpenException
+    }
+
     public enum EducationalForm
     {
         Intramural = 0,     //очная форма

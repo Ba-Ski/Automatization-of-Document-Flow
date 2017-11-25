@@ -7,7 +7,7 @@ using СurriculumParse.Logger;
 
 namespace СurriculumParse
 {
-    internal class FilesManager
+    public class FilesManager
     {
         private readonly string _rootPath;
         private readonly IDBManager _dbManager;
@@ -28,22 +28,27 @@ namespace СurriculumParse
             return !dirInfo.Exists ? null : dirInfo.GetDirectories();
         }
 
-        public void ProcessAllProgamms()
+        public IEnumerable<string> ProcessAllProgamms()
         {
             var dirs = GetSubdirs();
+            var errorsList = new List<string>();
             foreach (var dir in dirs)
             {
-                ProcessProgramm(dir);
+                ProcessProgramm(dir, errorsList);
             }
+
+            return errorsList;
         }
 
-        public void ProcessProgramm(DirectoryInfo dirInfo)
+        public void ProcessProgramm(DirectoryInfo dirInfo, List<string> errorsList)
         {
             if (!dirInfo.Exists)
             {
                 _logger.Info("File manager: broken directory");
                 return;
             }
+
+            
 
             var programNumber = dirInfo.Name;
             _logger.Info($"File manager: steped in programm number {programNumber}");
@@ -56,6 +61,7 @@ namespace СurriculumParse
                 var yearDir = programNameDir.GetDirectories("2015").FirstOrDefault();
                 if (yearDir == null)
                 {
+                    errorsList.Add(programNameDir.FullName + " -- нет директории для 2015 года");
                     _logger.Info("File Manager: no directory for 2015 year");
                     continue;
                 }
@@ -69,13 +75,25 @@ namespace СurriculumParse
                     if (file.Extension == ".xls")
                     {
                         _logger.Info("File is with obsolete format change it to xlsx");
+                        errorsList.Add(file.Name + " -- старый формат файла. Нужно переделать в xlsx");
                         continue;
                     }
-                    _dbManager.InsertCurriculumAsync(_parser.ParseDocumenr(file.FullName));
+                    var curriculum = _parser.ParseDocumenr(file.FullName);
+                    if (curriculum != null)
+                    {
+                        _dbManager.ReplaceCurriculumAsync(curriculum);
+                    }
+                    else
+                    {
+                        errorsList.Add(file.Name);
+                    }
+                }
+                else
+                {
+                    errorsList.Add(yearDir.FullName + " -- нет учебного плана");
                 }
 
             }
-
         }
 
         private IEnumerable<FileInfo> GetProgrammDocs(DirectoryInfo dir)

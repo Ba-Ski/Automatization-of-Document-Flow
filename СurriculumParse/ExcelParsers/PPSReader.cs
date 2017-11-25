@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
+using MongoDB.Driver;
 using OfficeOpenXml;
 using OfficeOpenXml.Style;
 using СurriculumParse.Logger;
@@ -13,7 +10,7 @@ using СurriculumParse.Structures;
 
 namespace СurriculumParse.ExcelParsers
 {
-    internal class PPSReader
+    public class PPSReader
     {
         private readonly ILogger _logger;
         private ExcelWorksheet _ws;
@@ -45,7 +42,7 @@ namespace СurriculumParse.ExcelParsers
             _dbManager = dbManager;
         }
 
-        public void WorkWithPPS(string filePath)
+        public PpsReadStatus WorkWithPPS(string filePath)
         {
             _fileInfo = new FileInfo(filePath);
             var startRow = StartRow;
@@ -89,11 +86,11 @@ namespace СurriculumParse.ExcelParsers
                     //    curriculum = _dbManager.GetCurriculumAsync(guid).Result;
                     //}
 
-                    var curriculum = _dbManager.GetCurriculumAsync(specialityNumber, profile, trueYear, (int) edForm)
-                        .Result;
+                    var curriculum = _dbManager.GetCurriculumAsync(specialityNumber, profile, trueYear, (int) edForm);
                     if (curriculum == null)
                     {
-                        throw new ApplicationException($"Can't find curriculum in data base: {specialityNumber}, {profile}, {trueYear}, {edForm}");
+                        throw new MongoException(
+                            $"Can't find curriculum in data base: {specialityNumber}, {profile}, {trueYear}, {edForm}");
                     }
                     _ws.SetValue(TableHeaderRow, RateColumn, RateColumnName);
 
@@ -128,7 +125,7 @@ namespace СurriculumParse.ExcelParsers
                             continue;
                         }
                         subjName = subjName.ToLower().Trim();
-                        
+
                         if (string.IsNullOrEmpty(activityForm))
                         {
                             _logger.Info($"Empty entry in {startRow}:{SubjectActivityTypeColumn}");
@@ -144,7 +141,9 @@ namespace СurriculumParse.ExcelParsers
                         }
 
                         var subject =
-                            curriculum.BaseSubjects.FirstOrDefault(c => c.Index == index && c.Name.ToLower() == subjName); // Может класть в базу сразу строчные?
+                            curriculum.BaseSubjects.FirstOrDefault(
+                                c => c.Index == index &&
+                                     c.Name.ToLower() == subjName); // Может класть в базу сразу строчные?
 
                         if (subject == null)
                         {
@@ -206,10 +205,22 @@ namespace СurriculumParse.ExcelParsers
                     package.Workbook.Calculate();
                     package.Save();
                 }
+
+                return PpsReadStatus.Success;
+            }
+            catch (MongoException ex)
+            {
+                _logger.Error(ex.Message, ex);
+                return PpsReadStatus.CurriculumNotFound;
+            }
+            catch (IOException ex)
+            {
+                return PpsReadStatus.FileOpenException;
             }
             catch (Exception ex)
             {
                 _logger.Error($"Reading pps {_fileInfo.Name}. Error {startRow}: {ex.Message}", ex);
+                return PpsReadStatus.PpsReadError;
             }
 
         }

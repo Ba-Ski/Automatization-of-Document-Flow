@@ -9,7 +9,7 @@ using OfficeOpenXml.Style;
 
 namespace СurriculumParse.ExcelParsers
 {
-    internal class CurriculumReader : IDocumentParser
+    public class CurriculumReader : IDocumentParser
     {
 
         private readonly ILogger _logger;
@@ -47,12 +47,12 @@ namespace СurriculumParse.ExcelParsers
 
                     var edForm = GetEdForm();
 
-                    var speciality = _ws.GetValue<string>((int) XlsxSectionsRows2015.SpecialityField, 2);
+                    var speciality = ReadDescriptionField((int) XlsxSectionsRows2015.SpecialityField);
                     var parts = speciality.Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries);
                     var specialiyNumber = parts[0]; //ToDo validation
                     var specialityName = parts[1];
-                    var profile = _ws.GetValue<string>((int) XlsxSectionsRows2015.ProfileField, 2);
-                    var durationStr = _ws.GetValue<string>((int) XlsxSectionsRows2015.DurationField, 1);
+                    var profile = ReadDescriptionField((int) XlsxSectionsRows2015.ProfileField);
+                    var durationStr = ReadDescriptionField((int) XlsxSectionsRows2015.DurationField);
                     var years = GetDuration(durationStr);
                     _semestersCount = (int) years * 2;
 
@@ -60,7 +60,7 @@ namespace СurriculumParse.ExcelParsers
                         (int) XlsxSectionsRows2015.WeeksPerSemester, (int) SubjectColumn.HoursTable);
                     if (weeksPerSemesterRow == -1)
                     {
-                        throw new ApplicationException($"Wrong document structure. Can't find base part");
+                        throw new ApplicationException($"Wrong document structure. Can't find weeks per semester");
                     }
 
                     var basePartRow = CheckOrGetStartRow(Constants.BasePartName, weeksPerSemesterRow,
@@ -121,6 +121,12 @@ namespace СurriculumParse.ExcelParsers
                 _logger.Error($"Parsing curriculum {_fileInfo.Name}. Error during parsing: {ex.Message}", ex);
                 return null;
             }
+        }
+
+        private string ReadDescriptionField(int row)
+        {
+            return _ws.GetValue<string>(row, 2) ??
+                   _ws.GetValue<string>(row, 1);
         }
 
         private WeeksPerSemesterPair[] GetWeeksPerSemester(int row)
@@ -341,8 +347,8 @@ namespace СurriculumParse.ExcelParsers
                 }
                 {
                     _logger.Info($"Parsing curriculum {_fileInfo.Name}. Can't parse double in {row}:{column}");
+                    throw new ApplicationException();
                 }
-                return null;
             }
             catch (Exception ex)
             {
@@ -474,10 +480,6 @@ namespace СurriculumParse.ExcelParsers
             {
                 lections.Add(new Complexity(i + 1, lectionHours.Value));
             }
-
         }
-
-        
-
     }
 }
