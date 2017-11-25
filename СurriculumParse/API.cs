@@ -34,7 +34,7 @@ namespace СurriculumParse
             }
             try
             {
-                _dbManager.InsertCurriculumAsync(obj).GetAwaiter().GetResult();
+                _dbManager.ReplaceCurriculumAsync(obj);
             }
             catch (Exception)
             {
@@ -50,11 +50,14 @@ namespace СurriculumParse
             return pps.WorkWithPPS(path);
         }
 
-        public void ParseCurriculumsDirrectory(string path)
+        public int ParseCurriculumsDirrectory(string path)
         {
             var fileManager = new FilesManager(path, _dbManager, _parser, _logger);
-            var files = fileManager.ProcessAllProgamms();
-            File.WriteAllLines("Ошибки.txt", files);
+            var result = fileManager.ProcessAllProgamms();
+            File.WriteAllLines("Ошибки.txt", result.Errors);
+            File.WriteAllLines("Прочитанные файлы.txt", result.Successes);
+
+            return result.Successes.Count();
         }
 
         private static void StartMongod()

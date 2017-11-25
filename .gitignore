@@ -1,2 +1,9 @@
 data
 .vs
+WindowsInterface/bin
+WindowsInterface/obj
+ConsoleInterface/bin
+ConsoleInterface/obj
+СurriculumParse/bin
+СurriculumParse/obj
+

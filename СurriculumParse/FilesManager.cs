@@ -14,6 +14,12 @@ namespace СurriculumParse
         private readonly ILogger _logger;
         private readonly IDocumentParser _parser;
 
+        public struct ParseResult
+        {
+            public IEnumerable<string> Errors;
+            public IEnumerable<string> Successes;
+        }
+
         public FilesManager(string path, IDBManager dbManager, IDocumentParser parser, ILogger logger)
         {
             _rootPath = path;
@@ -28,27 +34,29 @@ namespace СurriculumParse
             return !dirInfo.Exists ? null : dirInfo.GetDirectories();
         }
 
-        public IEnumerable<string> ProcessAllProgamms()
+        public ParseResult ProcessAllProgamms()
         {
             var dirs = GetSubdirs();
             var errorsList = new List<string>();
+            var succesList = new List<string>();
             foreach (var dir in dirs)
             {
-                ProcessProgramm(dir, errorsList);
+                ProcessProgramm(dir, errorsList, succesList);
             }
 
-            return errorsList;
+            ParseResult result;
+            result.Errors = errorsList;
+            result.Successes = succesList; 
+            return result;
         }
 
-        public void ProcessProgramm(DirectoryInfo dirInfo, List<string> errorsList)
+        public void ProcessProgramm(DirectoryInfo dirInfo, List<string> errorsList, List<string> succesList)
         {
             if (!dirInfo.Exists)
             {
                 _logger.Info("File manager: broken directory");
                 return;
             }
-
-            
 
             var programNumber = dirInfo.Name;
             _logger.Info($"File manager: steped in programm number {programNumber}");
@@ -61,7 +69,7 @@ namespace СurriculumParse
                 var yearDir = programNameDir.GetDirectories("2015").FirstOrDefault();
                 if (yearDir == null)
                 {
-                    errorsList.Add(programNameDir.FullName + " -- нет директории для 2015 года");
+                    errorsList.Add(programNameDir.FullName + "\\" + " -- нет директории для 2015 года");
                     _logger.Info("File Manager: no directory for 2015 year");
                     continue;
                 }
@@ -82,6 +90,7 @@ namespace СurriculumParse
                     if (curriculum != null)
                     {
                         _dbManager.ReplaceCurriculumAsync(curriculum);
+                        succesList.Add(file.Name);
                     }
                     else
                     {
@@ -90,7 +99,7 @@ namespace СurriculumParse
                 }
                 else
                 {
-                    errorsList.Add(yearDir.FullName + " -- нет учебного плана");
+                    errorsList.Add(yearDir.FullName + "\\" + " -- нет учебного плана");
                 }
 
             }

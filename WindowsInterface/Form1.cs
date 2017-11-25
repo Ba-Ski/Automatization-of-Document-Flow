@@ -25,7 +25,6 @@ namespace WindowsInterface
             openFileDialog1.FileName = "";
             openFileDialog2.FileName = "";
             Closing += this.Form_Close;
-            this.Name = "Программа";
 
             try
             {
@@ -103,11 +102,10 @@ namespace WindowsInterface
             // получаем выбранный файл
             var dir = folderBrowserDialog1.SelectedPath;
             // читаем файл в строку
-            _api.ParseCurriculumsDirrectory(dir);
+            var f = _api.ParseCurriculumsDirrectory(dir);
             MessageBox.Show(
-                "Запись в базу завершена. В файле Ошибки.txt можете ознаокмиться с тем, какие файлы не удалось прочитать.",
+                $"Запись в базу завершена. Прочитано {f} файлов. В файлах \"Ошибки\" и \"Прочитанные файлы\" можно ознакомиться с результатами",
                 "УП", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
         }
 
     }

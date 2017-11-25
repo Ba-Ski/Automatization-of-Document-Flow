@@ -34,7 +34,7 @@ namespace СurriculumParse.ExcelParsers
         private const string PracticeName = "практические занятия";
         private const string LectionName = "лекционные занятия";
         private const string StudentSelfWorkName = "срс";
-        private const string RateColumnName = "доля ставки по дичcиплние";
+        private const string RateColumnName = "доля ставки по дисциплине";
 
         public PPSReader(ILogger logger, IDBManager dbManager)
         {
@@ -56,6 +56,11 @@ namespace СurriculumParse.ExcelParsers
                     var specialityPair = _ws.GetValue<string>(2, 1);
                     var specialityNumber = specialityPair.Split(new[] {' '})[0];
                     var values = _ws.GetValue<string>(3, 1);
+                    if (values.Contains('('))
+                    {
+                        var bracket = values.IndexOf('(');
+                        values = values.Substring(0, bracket).Trim();
+                    }
                     //var profile = values.Substring(0, values.IndexOf('(') - 1);
                     //var tuple = values.Substring(values.IndexOf('('), values.IndexOf(')'));
                     //var yeraAndForm = tuple.Split(new[] {' ', ','}, StringSplitOptions.RemoveEmptyEntries);
@@ -77,7 +82,7 @@ namespace СurriculumParse.ExcelParsers
                     var edForm = ParseEdForm(s);
 
                     var profile = values; //ToDo toLower
-                    var key = specialityNumber + values.ToLower() + year + (int) edForm;
+                    //var key = specialityNumber + values.ToLower() + year + (int) edForm;
 
                     //using (var md5 = MD5.Create())
                     //{
@@ -99,10 +104,10 @@ namespace СurriculumParse.ExcelParsers
                     do
                     {
                         var index = _ws.GetValue<string>(startRow, IndexColumn);
-                        var subjName = _ws.GetValue<string>(startRow, SubjectNameColumn);
+                        //var subjName = _ws.GetValue<string>(startRow, SubjectNameColumn);
                         var activityForm = _ws.GetValue<string>(startRow, SubjectActivityTypeColumn);
 
-                        if (string.IsNullOrEmpty(index) && string.IsNullOrEmpty(subjName) &&
+                        if (string.IsNullOrEmpty(index) &&
                             string.IsNullOrEmpty(activityForm))
                         {
                             isNotEmpty = false;
@@ -118,13 +123,13 @@ namespace СurriculumParse.ExcelParsers
 
                         index = index.Trim();
 
-                        if (string.IsNullOrEmpty(subjName))
-                        {
-                            _logger.Info($"Empty entry in {startRow}:{SubjectNameColumn}");
-                            startRow++;
-                            continue;
-                        }
-                        subjName = subjName.ToLower().Trim();
+                        //if (string.IsNullOrEmpty(subjName))
+                        //{
+                        //    _logger.Info($"Empty entry in {startRow}:{SubjectNameColumn}");
+                        //    startRow++;
+                        //    continue;
+                        //}
+                        //subjName = subjName.ToLower().Trim();
 
                         if (string.IsNullOrEmpty(activityForm))
                         {
@@ -142,12 +147,11 @@ namespace СurriculumParse.ExcelParsers
 
                         var subject =
                             curriculum.BaseSubjects.FirstOrDefault(
-                                c => c.Index == index &&
-                                     c.Name.ToLower() == subjName); // Может класть в базу сразу строчные?
+                                c => c.Index == index); // Может класть в базу сразу строчные?
 
                         if (subject == null)
                         {
-                            _logger.Info($"Curriculum subject hasn't found: index {index} name {subjName}");
+                            _logger.Info($"Curriculum subject hasn't found: index {index}");
                             startRow++;
                             continue;
                         }
@@ -199,7 +203,7 @@ namespace СurriculumParse.ExcelParsers
                     _ws.Cells[startRow, RateColumn].Style.Fill.PatternType = ExcelFillStyle.Solid;
                     _ws.Cells[startRow, RateColumn].Style.Fill.BackgroundColor.SetColor(Color.Red);
                     //_ws.Cells[startRow, RateColumn].Formula = $"SUM({RateColumnLetters}{StartRow}:{RateColumnLetters}{startRow - 1})";
-                    _ws.Cells[startRow, RateColumn].Formula = "SUMIF($K6:$L334, \"<>\", $AF6:$AF334)";
+                    _ws.Cells[startRow, RateColumn].Formula = $"SUMIF($K{StartRow}:$L{startRow - 1}, \"<>\", $AF{StartRow}:$AF{startRow - 1})";
                     //_ws.Cells[startRow, RateColumn].Value = ostepenionnost;
 
                     package.Workbook.Calculate();
