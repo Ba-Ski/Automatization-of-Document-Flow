@@ -1,10 +1,12 @@
-﻿using СurriculumParse.ExcelParsers;
+﻿using System.Diagnostics;
+using СurriculumParse.ExcelParsers;
 using СurriculumParse.Logger;
 
 namespace СurriculumParse
 {
     public class Program
     {
+        private static Process _mongod;
 
         static string GetPath(string[] args)
         {
@@ -23,14 +25,50 @@ namespace СurriculumParse
             var parser = new CurriculumReader(logger);
             logger.Info($"Application started");
             var path = GetPath(args);
-            var fileManager = new FilesManager(path, dbmanager, parser, logger);
-            fileManager.ProcessAllProgamms();
+            StartMongod();
+
+            //ParseCurriculumsDirrectory(path, dbmanager, parser, logger);
 
             var pps = new PPSReader(logger, dbmanager);
-            //pps.WorkWithPPS("C:\\Users\\baski\\Documents\\База ОПОП\\09.03.01\\Вычислительные машины, комплексы, системы и сети_очная\\2015\\ППС_09.03.01_Вычисл.машины,компл,сис. и сети_2015_оН.xlsx");
-            //var obj = parse.ParseDocumenr("C:\\Users\\baski\\Documents\\Visual Studio 2015\\Projects\\СurriculumParse\\СurriculumParse\\bin\\Debug\\УП_09.03.04_ФГОС_ВО.xlsx");
-            //dbmanager.InsertCurriculumAsync(obj).GetAwaiter().GetResult();
+            pps.WorkWithPPS("C:\\Users\\baski\\Documents\\База ОПОП\\09.03.01\\Вычислительные машины, комплексы, системы и сети_очная\\2015\\ППС_09.03.01_Вычисл.машины,компл,сис. и сети_2015_оН.xlsx");
+
+            //ParseCurriculum(parser, dbmanager);
             logger.Info($"Application finished");
+            //stopping the mongod server (when app is closing)
+            _mongod.Kill();
         }
+
+        private static void ParseCurriculum(CurriculumReader parser, MongoDbManager dbmanager)
+        {
+            var obj = parser.ParseDocumenr(
+                "C:\\Users\\baski\\Documents\\База ОПОП\\09.03.01\\Вычислительные машины, комплексы, системы и сети_очная\\2015\\УП2015_09.03.01_Вычислительные машины, комплексы, системы и сети_для_о.xlsx");
+            dbmanager.InsertCurriculumAsync(obj).GetAwaiter().GetResult();
+        }
+
+        private static void ParsePPS(string path, ILogger logger, IDBManager dbManager)
+        {
+            var pps = new PPSReader(logger, dbManager);
+            pps.WorkWithPPS(path);
+        }
+
+        private static void ParseCurriculumsDirrectory(string path, IDBManager dbmanager, IDocumentParser parser,
+            ILogger logger)
+        {
+            var fileManager = new FilesManager(path, dbmanager, parser, logger);
+            fileManager.ProcessAllProgamms();
+        }
+
+        private static void StartMongod()
+        {
+            var start = new ProcessStartInfo
+            {
+                FileName = "mongod.exe",
+                WindowStyle = ProcessWindowStyle.Hidden,
+                Arguments = @"--config c:\mongod.conf"
+            };
+
+            _mongod = Process.Start(start);
+        }
+
     }
 }

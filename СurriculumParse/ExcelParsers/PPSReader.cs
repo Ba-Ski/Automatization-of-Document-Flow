@@ -119,13 +119,15 @@ namespace СurriculumParse.ExcelParsers
                             continue;
                         }
 
+                        index = index.Trim();
+
                         if (string.IsNullOrEmpty(subjName))
                         {
                             _logger.Info($"Empty entry in {startRow}:{SubjectNameColumn}");
                             startRow++;
                             continue;
                         }
-
+                        subjName = subjName.ToLower().Trim();
                         
                         if (string.IsNullOrEmpty(activityForm))
                         {
@@ -133,18 +135,16 @@ namespace СurriculumParse.ExcelParsers
                             startRow++;
                             continue;
                         }
-                        activityForm = activityForm.ToLower();
+                        activityForm = activityForm.ToLower().Trim();
                         var semester = ReadIntCellSafe(startRow, SemesterColumn);
                         if (semester == -1)
                         {
                             startRow++;
                             continue;
                         }
-                        index = index.Trim();
-                        subjName = subjName.Trim();
 
                         var subject =
-                            curriculum.BaseSubjects.FirstOrDefault(c => c.Index == index && c.Name == subjName);
+                            curriculum.BaseSubjects.FirstOrDefault(c => c.Index == index && c.Name.ToLower() == subjName); // Может класть в базу сразу строчные?
 
                         if (subject == null)
                         {
@@ -180,7 +180,8 @@ namespace СurriculumParse.ExcelParsers
                         }
 
                         hours = complexity?.Hours ?? 0;
-                        ratio = hours / 900;
+                        var weeks = curriculum.WeeksPerSemester[semester - 1].Weeks;
+                        ratio = hours * weeks / 900;
                         _ws.Cells[startRow, RateColumn].Style.Numberformat.Format = "#,#####0.00000";
                         _ws.SetValue(startRow, RateColumn, ratio);
 
@@ -199,7 +200,8 @@ namespace СurriculumParse.ExcelParsers
                     _ws.Cells[startRow, RateColumn].Style.Fill.PatternType = ExcelFillStyle.Solid;
                     _ws.Cells[startRow, RateColumn].Style.Fill.BackgroundColor.SetColor(Color.Red);
                     //_ws.Cells[startRow, RateColumn].Formula = $"SUM({RateColumnLetters}{StartRow}:{RateColumnLetters}{startRow - 1})";
-                    _ws.Cells[startRow, RateColumn].Value = ostepenionnost;
+                    _ws.Cells[startRow, RateColumn].Formula = "SUMIF($K6:$L334, \"<>\", $AF6:$AF334)";
+                    //_ws.Cells[startRow, RateColumn].Value = ostepenionnost;
 
                     package.Workbook.Calculate();
                     package.Save();

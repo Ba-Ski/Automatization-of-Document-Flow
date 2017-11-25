@@ -56,37 +56,45 @@ namespace СurriculumParse.ExcelParsers
                     var years = GetDuration(durationStr);
                     _semestersCount = (int) years * 2;
 
+                    var weeksPerSemesterRow = CheckOrGetStartRow(Constants.WeeksPerSemesterName, 1,
+                        (int) XlsxSectionsRows2015.WeeksPerSemester, (int) SubjectColumn.HoursTable);
+                    if (weeksPerSemesterRow == -1)
+                    {
+                        throw new ApplicationException($"Wrong document structure. Can't find base part");
+                    }
 
-                    var basePartRow = CheckOrGetStartRow((int) XlsxSectionsRows2015.BasePart, Constants.BasePart, 0);
+                    var basePartRow = CheckOrGetStartRow(Constants.BasePartName, weeksPerSemesterRow,
+                        (int) XlsxSectionsRows2015.BasePart);
                     if (basePartRow == -1)
                     {
                         throw new ApplicationException($"Wrong document structure. Can't find base part");
                     }
-                    var variativePartRow = CheckOrGetStartRow((int) XlsxSectionsRows2015.VariativePart,
-                        Constants.VariativePartName, basePartRow);
+                    var variativePartRow = CheckOrGetStartRow(Constants.VariativePartName, basePartRow,
+                        (int) XlsxSectionsRows2015.VariativePart);
                     if (variativePartRow == -1)
                     {
                         throw new ApplicationException($"Wrong document structure. Can't find variative part");
                     }
-                    var phisicalPartRow = CheckOrGetStartRow((int) XlsxSectionsRows2015.PhysicalEdPart,
-                        Constants.PhysicalEdPartName, variativePartRow);
+                    var phisicalPartRow = CheckOrGetStartRow(Constants.PhysicalEdPartName, variativePartRow,
+                        (int) XlsxSectionsRows2015.PhysicalEdPart);
                     if (phisicalPartRow == -1)
                     {
                         throw new ApplicationException($"Wrong document structure. Can't find phisical part");
                     }
-                    var practicePartRow = CheckOrGetStartRow((int) XlsxSectionsRows2015.PracticePart,
-                        Constants.PracticePartName, phisicalPartRow);
+                    var practicePartRow = CheckOrGetStartRow(Constants.PracticePartName, phisicalPartRow,
+                        (int) XlsxSectionsRows2015.PracticePart);
                     if (practicePartRow == -1)
                     {
                         throw new ApplicationException($"Wrong document structure. Can't find practice part");
                     }
-                    var attestaionPartRow = CheckOrGetStartRow((int) XlsxSectionsRows2015.AttestationPart,
-                        Constants.AttestationPartName, practicePartRow);
+                    var attestaionPartRow = CheckOrGetStartRow(Constants.AttestationPartName, practicePartRow,
+                        (int) XlsxSectionsRows2015.AttestationPart);
                     if (attestaionPartRow == -1)
                     {
                         throw new ApplicationException($"Wrong document structure. Can't find attestation part");
                     }
 
+                    var weeksPerSemester = GetWeeksPerSemester(weeksPerSemesterRow);
                     var baseSubjects = ParseSubjects(basePartRow, variativePartRow - 5, SubjectType2015.BaseSubject);
                     var variativeSubjects = ParseSubjects(variativePartRow, phisicalPartRow - 9,
                         SubjectType2015.VariativeSubject);
@@ -104,7 +112,7 @@ namespace СurriculumParse.ExcelParsers
                     allSubjects.AddRange(attestationSection);
 
                     var curriculum = new Curriculum(specialiyNumber, specialityName, profile, years, allSubjects,
-                        CurriculumYear, edForm);
+                        CurriculumYear, edForm, weeksPerSemester);
                     return curriculum;
                 }
             }
@@ -113,6 +121,23 @@ namespace СurriculumParse.ExcelParsers
                 _logger.Error($"Parsing curriculum {_fileInfo.Name}. Error during parsing: {ex.Message}", ex);
                 return null;
             }
+        }
+
+        private WeeksPerSemesterPair[] GetWeeksPerSemester(int row)
+        {
+            var pairs = new List<WeeksPerSemesterPair>();
+            var column = (int) SubjectColumn.HoursTable;
+            for (var i = 0; i < _semestersCount; i++)
+            {
+                var weeks = ReadIntCellSafe(row, column + i);
+                var attWeeks = ReadIntCellSafe(row + 1, column + i);
+                if (weeks < 0 || attWeeks < 0)
+                {
+                    throw new ApplicationException("Can't read weeks per semester");
+                }
+                pairs.Add(new WeeksPerSemesterPair(weeks, attWeeks));
+            }
+            return pairs.ToArray();
         }
 
         private EducationalForm GetEdForm()
@@ -137,16 +162,20 @@ namespace СurriculumParse.ExcelParsers
             }
         }
 
-        private int CheckOrGetStartRow(int row, string headerStr, int startRow)
+        private int CheckOrGetStartRow(string headerStr, int startRow, int row, int column = 1)
         {
 
-            var header = _ws.GetValue<string>(row - 2, 1);
+            var header = _ws.GetValue<string>(row - 2, column); //А если название блока будет не на две строки выше?
+            if (header == null)
+            {
+                return -1;
+            }
             if (header == headerStr)
             {
                 return row;
             }
 
-            while (_ws.GetValue<string>(startRow, (int)SubjectColumn.Index) != headerStr)
+             while (_ws.GetValue<string>(startRow, column) != headerStr)
             {
                 if (_ws.Row(startRow).Hidden)
                 {
@@ -241,7 +270,7 @@ namespace СurriculumParse.ExcelParsers
                         continue;
                     }
 
-                    if (!string.IsNullOrEmpty(str) && string.IsNullOrWhiteSpace(str))
+                    if (!string.IsNullOrEmpty(str) && !string.IsNullOrWhiteSpace(str))
                     {
                         str = str.Trim();
                         strs.Add(str);
@@ -282,22 +311,25 @@ namespace СurriculumParse.ExcelParsers
             return exams;
         }
 
-        private int ReadIntCellSafe(int row, int cell)
+        private int ReadIntCellSafe(int row, int column)
         {
-            var value = Convert.ToString((_ws.GetValue(row, cell)));
+            var value = _ws.GetValue<string>(row, column);
             int res;
             if (int.TryParse(value, out res))
             {
                 return res;
             }
+            {
+                _logger.Info($"Parsing curriculum {_fileInfo.Name}. Can't parse int in {row}:{column}");
+            }
             return -1;
         }
 
-        private double? ReadDoubleCellSafe(int row, int cell)
+        private double? ReadDoubleCellSafe(int row, int column)
         {
             try
             {
-                var value = _ws.GetValue<string>(row, cell);
+                var value = _ws.GetValue<string>(row, column);
                 if (string.IsNullOrEmpty(value))
                 {
                     return null;
@@ -308,13 +340,13 @@ namespace СurriculumParse.ExcelParsers
                     return res;
                 }
                 {
-                    _logger.Info($"Parsing curriculum {_fileInfo.Name}. Can't parse double in {row}:{cell}");
+                    _logger.Info($"Parsing curriculum {_fileInfo.Name}. Can't parse double in {row}:{column}");
                 }
                 return null;
             }
             catch (Exception ex)
             {
-                throw new ApplicationException($"Can't read double in {row}:{cell}", ex);
+                throw new ApplicationException($"Can't read double in {row}:{column}", ex);
             }
         }
 

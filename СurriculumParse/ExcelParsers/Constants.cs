@@ -8,8 +8,9 @@ namespace СurriculumParse.ExcelParsers
 {
     public static class Constants
     {
-        public const string Speciality = "НАПРАВЛЕНИЕ ПОДГОТОВКИ";
-        public const string BasePart = "Б.1.1 БАЗОВАЯ ЧАСТЬ";
+        public const string WeeksPerSemesterName = "Кол-во недель обучения";
+        public const string SpecialityName = "НАПРАВЛЕНИЕ ПОДГОТОВКИ";
+        public const string BasePartName = "Б.1.1 БАЗОВАЯ ЧАСТЬ";
         public const string VariativePartName = "Б.1.2 ВАРИАТИВНАЯ ЧАСТЬ";
         public const string PhysicalEdPartName = "Б.1.3. ФИЗИЧЕСКАЯ КУЛЬТУРА (ЭЛЕКТИВНАЯ ДИСЦИПЛИНА)";
         public const string PracticePartName = "Б.2. ПРАКТИКИ";
@@ -27,6 +28,7 @@ namespace СurriculumParse.ExcelParsers
         SpecialityField = 20,
         ProfileField = 22,
         DurationField = 24,
+        WeeksPerSemester = 40,
         BasePart = 49,
         VariativePart = 438,
         PhysicalEdPart = 837,
@@ -59,7 +61,7 @@ namespace СurriculumParse.ExcelParsers
         CreditSemesters,
         TotalScore,
         TotalAuditoryHours,
-        HoursByType,
+        HoursByType,    
         HoursTable,
         Department = 16
     };

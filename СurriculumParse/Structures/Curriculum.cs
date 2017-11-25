@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Remoting;
 using System.Security.Cryptography;
 using System.Text;
 using Microsoft.Office.Interop.Excel;
@@ -54,8 +55,13 @@ namespace СurriculumParse.Structures
         /// </summary>
         public IEnumerable<Subject> BaseSubjects { get; private set; }
 
+        /// <summary>
+        /// Количество недель в семестр. Берётся из шапки УП.
+        /// </summary>
+        public WeeksPerSemesterPair[] WeeksPerSemester { get; private set; }
+
         public Curriculum(string specialityNumber, string specialityName, string profile, double studyPeriod, IEnumerable<Subject> baseSubjects,
-            int year, EducationalForm edForm)
+            int year, EducationalForm edForm, WeeksPerSemesterPair[] weeksPerSemester)
         {
             SpecialityNumber = specialityNumber;
             SpecialityName = specialityName;
@@ -64,12 +70,25 @@ namespace СurriculumParse.Structures
             BaseSubjects = baseSubjects;
             Year = year;
             EdForm = (int)edForm;
+            WeeksPerSemester = weeksPerSemester;
 
             using (var md5 = MD5.Create())
             {
                 var hash = md5.ComputeHash(Encoding.Default.GetBytes(SpecialityNumber + Profile.ToLower() + Year + EdForm));
                 Id = new Guid(hash);
             }
+        }
+    }
+
+    public class WeeksPerSemesterPair
+    {
+        public int Weeks { get; private set; }
+        public int AttestationWeeks { get; private set; }
+
+        public WeeksPerSemesterPair(int weeks, int attWeeks)
+        {
+            Weeks = weeks;
+            AttestationWeeks = attWeeks;
         }
     }
 }
