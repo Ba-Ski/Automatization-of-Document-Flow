@@ -72,11 +72,14 @@ namespace СurriculumParse.Structures
             EdForm = (int)edForm;
             WeeksPerSemester = weeksPerSemester;
 
-            using (var md5 = MD5.Create())
-            {
-                var hash = md5.ComputeHash(Encoding.Default.GetBytes(SpecialityNumber + Profile.ToLower() + Year + EdForm));
-                Id = new Guid(hash);
-            }
+            // Была мысль генерировать Id как MD5 по номеру специальности, году и форме обучения,
+            // так как они точно будут уникальны для каждого УП. Решил отказаться, так как не решил целесообразно ли это.
+
+            //using (var md5 = MD5.Create())
+            //{
+            //    var hash = md5.ComputeHash(Encoding.Default.GetBytes(SpecialityNumber + Profile.ToLower() + Year + EdForm));
+            //    Id = new Guid(hash);
+            //}
         }
     }
 

@@ -3,6 +3,11 @@ using Microsoft.Office.Interop.Excel;
 
 namespace СurriculumParse.Structures
 {
+
+    /// <summary>
+    /// Решил описывать практику в классе Subject единообразно как и предметы, аттестации и физическую культуру. 
+    /// Не уверен, будет ли это нужно далее.
+    /// </summary>
     public class Practice
     {
         public string Index { get; private set; }

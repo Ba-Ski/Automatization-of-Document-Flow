@@ -21,7 +21,6 @@ namespace СurriculumParse
 
         static MongoDbManager()
         {
-            //var connectionString = ConfigurationManager.ConnectionStrings[CONNECTION_STRING_NAME].ConnectionString;
             _client = new MongoClient(ConnectionStringName);
             _database = _client.GetDatabase(DatabaseName);
         }
@@ -65,7 +64,7 @@ namespace СurriculumParse
 
         public async Task InsertParseError()
         {
-            
+            throw new NotImplementedException();
         }
     }
 }

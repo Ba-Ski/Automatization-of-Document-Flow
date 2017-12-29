@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System.Collections.Generic;
+using System.Diagnostics;
 using СurriculumParse;
 using СurriculumParse.ExcelParsers;
 using СurriculumParse.Logger;
@@ -9,9 +10,9 @@ namespace ConsoleInterface
     {
         private static Process _mongod;
 
-        static string GetPath(string[] args)
+        private static string GetPath(IReadOnlyList<string> args)
         {
-            if (args.Length == 0)
+            if (args.Count == 0)
             {
                 System.Console.WriteLine("Please enter root path.");
                 return null;
@@ -19,7 +20,8 @@ namespace ConsoleInterface
 
             return args[0];
         }
-        static void Main(string[] args)
+
+        private static void Main(string[] args)
         {
             try
             {
