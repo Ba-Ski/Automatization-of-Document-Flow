@@ -80,4 +80,16 @@ namespace СurriculumParse.ExcelParsers
         Extramural = 1,     //заочная
         IntraExtramural = 2 //очно-заочная
     }
+
+    public enum PPSColumnsNumbers
+    {
+        Index = 2,
+        SubjectName = 3,
+        SubjectActivityType = 4,
+        Semester = 7,
+        Degree = 11, //Ученая степень
+        Title = 12,  //Звание
+        Rate = 32 //Доля ставки по дисциплине
+    }
+
 }
