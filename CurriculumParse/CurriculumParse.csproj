@@ -101,10 +101,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="API.cs" />
-    <Compile Include="DocumentConsumer.cs" />
     <Compile Include="ExcelParsers\Constants.cs" />
     <Compile Include="ExcelParsers\CurriculumReader.cs" />
-    <Compile Include="ExcelParsers\InteropExcelParser.cs" />
     <Compile Include="ExcelParsers\PPSReader.cs" />
     <Compile Include="FilesManager.cs" />
     <Compile Include="IDocumentParser.cs" />
@@ -112,7 +110,6 @@
     <Compile Include="Logger\ILogger.cs" />
     <Compile Include="MongoDbManager.cs" />
     <Compile Include="IDBManager.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structures\Practice.cs" />
     <Compile Include="Structures\Complexity.cs" />

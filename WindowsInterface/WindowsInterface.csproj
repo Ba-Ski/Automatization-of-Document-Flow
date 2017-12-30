@@ -87,9 +87,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\СurriculumParse\СurriculumParse.csproj">
+    <ProjectReference Include="..\CurriculumParse\CurriculumParse.csproj">
       <Project>{c2399367-92a0-436b-8b54-cde537762a1b}</Project>
-      <Name>СurriculumParse</Name>
+      <Name>CurriculumParse</Name>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </ProjectReference>
   </ItemGroup>
